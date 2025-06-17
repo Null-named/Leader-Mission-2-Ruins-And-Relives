@@ -1,0 +1,273 @@
+[//leaders
+{
+    "name": "Civilized Leader-Branlin IV",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Farvi",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Jufeai]>",
+        "Only available <in cities without a [Civilized Leader-Fermar]>",
+        "[+2 Science] per [8] population [in all cities]",
+        "[+10]% Production when constructing [Military] units [in all cities] <when at war>"
+    ]
+},
+{
+    "name": "Civilized Leader-Jufeai",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Farvi",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Branlin IV]>",
+        "Only available <in cities without a [Civilized Leader-Fermar]>",
+        "[+1 Happiness] from all [Culture] buildings",
+        "[+1 Culture] from all [Happiness] buildings",
+        "[-2 Happiness] [in capital]",
+        "[-1 Happiness] [in all cities]",
+        "[-1 Culture] [in capital]"
+    ]
+},
+{
+    "name": "Civilized Leader-Fermar",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Farvi",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Branlin IV]>",
+        "Only available <in cities without a [Civilized Leader-Jufeai]>",
+        "[+1 Gold] [in all cities]",
+        "[+1 Gold] from [Bonus resource] tiles [in all cities]",
+        "[+1 Gold] from [Luxury resource] tiles [in all cities]",
+        "[+1 Gold] from [Strategic resource] tiles [in all cities]"
+    ]
+},
+{
+    "name": "Civilized Leader-Duwenyah",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Risun Kingdom",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "May buy [Military] units with [Faith] for [3] times their normal Production cost <in cities with a [Sun Temple]>",
+        "[+1 Faith] from [Strategic resource] tiles [in all cities]",
+        "[+1 Production, +1 Gold, -1 Food] from [Farm] tiles [in all cities] <after discovering [Fertilizer]>",
+        "[+5]% Strength <for [Military] units>"
+    ],
+    "quote": "'Under the golden sun, our faith becomes steel, and our fields become treasuries.' - Duwenyah's Edicts"
+},
+{
+      "name": "Civilized Leader-Lubia II",
+      "isNationalWonder": true,
+      "cost": 1,
+      "uniqueTo": "Isni",
+      "uniques": [
+          "Can only be built<in [in capital] cities>",
+          "Only available <in cities without a [Civilized Leader-Barian]>",
+          "[+7]% Strength <for [Foot Soldier] units>"
+          "Earn [20]% of the damage done to [Military] units as [Gold]",
+          "[+1 Gold] from every [Farm] <in tiles adjacent to [Fresh Water] tiles>"
+      ],
+      "quote": "'Let our warriors till the land as fiercely as they defend it.' - Lubia's Military Edicts"
+},
+{
+      "name": "Civilized Leader-Barian",
+      "isNationalWonder": true,
+      "cost": 1,
+      "uniqueTo": "Isni",
+      "uniques": [
+          "Can only be built<in [in capital] cities>",
+          "Only available <in cities without a [Civilized Leader-Lubia II]>",
+          "[+1 Culture] from all [Gold] buildings",
+          "[+1 Science] from every [Farm] <after discovering [Nation]>",
+          "[+1 Culture] from every [Mine] <after discovering [Engineering]>",
+          "[+1 Culture, +1 Science] from every [{unimproved} {Bonus resource}] <after discovering [Horseback Riding]>"
+      ],
+      "quote": "'Wealth untouched is knowledge undiscovered.' - Barian's Economic Principles"
+},
+{
+    "name": "Civilized Leader-Obbertis",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Arcardia Trade Federation",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Arzanbra]>",
+        "[+1 Gold] from [Coast] tiles [in all cities]",
+        "[+1 Production] from [Water resource] tiles [in all cities] <before discovering [Sailing]>",
+        "[+1 Production] from [Coast] tiles [in all cities] <after discovering [Astronomy]>",
+        "[+10]% maintenance cost for buildings [in all coastal cities]"
+    ]
+},
+{
+    "name": "Civilized Leader-Arzanbra",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Arcardia Trade Federation",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Obbertis]>",
+        "[+10]% [Gold] [in all cities]",
+        "[+10]% [Gold] from Trade Routes",
+        "[Gold] cost of purchasing [Military] units [-15]%",
+        "[Gold] cost of purchasing [All] buildings [-15]%",
+        "[Land] units gain the [Amphibious] promotion"
+    ]
+},
+{
+    "name": "Civilized Leader-Josip Broz Tito",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Yugoslavia",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Edvard Kardelj]>",
+        "[+1 Production] [in all cities] <after discovering [Nation]>",
+        "[-15]% [Production] [in all cities] <upon declaring friendship> <for [5] turns>",
+        "[-33]% maintenance costs <for [Land] units>",
+        "[+10]% Production when constructing [Land] units [in all cities]",
+        "[+10]% Strength <for [Foot Soldier] units> <when defending>"
+    ]
+},
+{
+    "name": "Civilized Leader-Edvard Kardelj",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Yugoslavia",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Josip Broz Tito]>",
+        "[-15]% construction time for [All] improvements",
+        "[+2]% [Production] from every [Production]",
+        "[+1 Production] from all [Production] buildings",
+        "[-1 Production] from all [Happiness] buildings",
+        "[-1 Production] [in all cities]",
+        "[+5]% Production when constructing [All] buildings [in all cities]"
+    ]
+},
+{
+    "name": "Civilized Leader-Camillo Benso Conte Cavour",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Italy",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Francesco Petrarca]>",
+        "Only available <in cities without a [Civilized Leader-Enrico Dandolo]>",
+        "[+1 Culture] from all [Happiness] buildings",
+        "[-15]% Culture cost of adopting new Policies <when above [20] [Happiness]>"
+    ]
+},
+{
+    "name": "Civilized Leader-Francesco Petrarca",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Italy",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Enrico Dandolo]>",
+        "Only available <in cities without a [Civilized Leader-Camillo Benso Conte Cavour]>",
+        "[+1 Culture] from every specialist [in all cities]",
+        "[+25]% Great Person generation [in all cities]"
+    ],
+    "quote": "'To be able to say how much you love is to love but little.' - Petrarch"
+},
+{
+    "name": "Civilized Leader-Enrico Dandolo",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Italy",
+    "uniques": [
+        "Can only bebuilt<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Francesco Petrarca]>",
+        "Only available <in cities without a [Civilized Leader-Camillo Benso Conte Cavour]>",
+        "[+1 Faith] from all [Gold] buildings",
+        "[+1 Culture] from all [Gold] buildings",
+        "When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]"
+    ],
+    "quote": "'Venice is not just a city, it's a masterpiece.' - Enrico Dandolo"
+},
+{
+    "name": "Duomo di Milano",
+    "replaces": "Grand Temple",
+    "uniqueTo": "Italy",
+    "cost": 120,
+    "faith": 0,
+    "culture": 0,
+    "isNationalWonder": true,
+    "uniques": [
+        "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+        "Cost increases by [30] per owned city",
+        "Gain a free [Pantheon] belief",
+        "[+30]% [Faith] [in this city]",
+        "[+20]% [Culture] [in this city]",
+        "[+100]% Natural religion spread [in this city]"
+    ],
+    "requiredTech": "Theology",
+    "quote": "'The devil is in the details, but so is salvation.' - Milanese proverb"
+},
+{
+    "name": "Seminar",
+    "replaces": "Library",
+    "uniqueTo": "Farvi",
+    "maintenance": 1,
+    "culture": 1,
+    "science": 1,
+    "requiredTech": "Writing",
+    "uniques": [
+        "Only available <in cities with a [City Level I]>",
+        "[+1 Science] per [4] population [in this city]",
+        "[+2 Science] per [8] population [in this city]",
+        "[+2 Science] per [12] population [in this city]",
+        "[+2 Science] per [16] population [in this city]",
+        "Provides [1] [Number of Buildings] <in this city>"
+    ]
+},
+{
+    "name": "Sun Temple",
+    "replaces": "Shrine",
+    "uniqueTo": "Risun Kingdom",
+    "production": 1,
+    "faith": 1,
+    "maintenance": 1,
+    "requiredTech": "Belief Worship",
+    "uniques": [
+        "Only available <in cities with a [City Level I]>",
+        "New [Military] units start with [5] XP [in this city]",
+        "Provides [1] [Number of Buildings] <in this city>"
+    ]
+},
+{
+    "name": "Caravanserai",
+    "replaces": "Market",
+    "uniqueTo": "Isni",
+    "gold": 5,
+    "specialistSlots": {"Merchant": 1},
+    "percentStatBonus": {"gold": 20},
+    "requiredTech": "Currency",
+    "uniques": [
+        "Only available <in cities with a [City Level II]>",
+        "[+15]% [Gold] from Trade Routes <in this city>",
+        "[+8]% Production when constructing [Mobile] units [in this city]",
+        "Provides [1] [Number of Buildings] <in this city>"
+    ]
+},
+{
+    "name": "Trade Seaport",
+    "replaces": "Dock",
+    "uniqueTo": "Arcardia Trade Federation",
+    "production": 0,
+    "gold": 3,
+    "maintenance": 1,
+    "uniques": [
+        "Only available <in cities with a [City Level I]>",
+        "[+10]% Production when constructing [{Military} {Water}] units [in this city]",
+        "[+1 Production] from [Fishing Boats] tiles [in this city]",
+        "Must be next to [Coast]",
+        "Seaside Building",
+        "Provides [1] [Number of Buildings] <in this city>"
+    ],
+    "requiredTech": "Sailing"
+}
+]

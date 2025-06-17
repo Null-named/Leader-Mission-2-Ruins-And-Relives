@@ -1,0 +1,380 @@
+[
+{
+	"name": "Farvi",
+	"leaderName": "Leader",
+	"startBias": ["Plains"],
+	"preferredVictoryType": "Scientific",
+
+	"startIntroPart1": "智慧与和平指引着法尔维人民前进的道路。",
+	
+	"declaringWar": "你迫使我们必须拿起武器，这是对伟大的法尔维文明的亵渎！",
+	"attacked": "你选择了与我们为敌，必将付出代价！",
+	"defeated": "虽然我们失败了，但法尔维的智慧之火永不熄灭...",
+	
+	"introduction": "愿知识与和平与你同在，远方的朋友。",
+	
+	"neutralHello": "愿智慧指引你的道路。",
+	"hateHello": "你有什么目的？",
+	
+	"tradeRequest": "知识的交流将使我们都受益，你愿意分享吗？",
+	
+	"outerColor": [20, 210, 240],  // 浅蓝色
+	"innerColor": [255, 255, 255],  // 金色
+	
+	"favoredReligion": "Taoism",
+	"uniqueName": "智慧与坚韧",
+	"uniques": [
+		"[+10]% [Science] <when not at war>",
+		"[+1 Culture] [in capital]",
+		"[+10]% [Production] [in all cities] <when at war>"
+	],
+	"cities": [
+		"Furlin",
+        "Barvo",
+        "Hinay",
+        "Waemune",
+        "Delixy",
+        "Marvican",
+        "Sunaya",
+        "Virbach",
+        "Narsvia",
+        "Loudvia"
+	],
+	"spyNames": [
+		"spy-1",
+		"spy-2",
+		"spy-3",
+		"spy-4",
+		"spy-5",
+		"spy-6",
+		"spy-7",
+		"spy-8",
+		"spy-9",
+		"spy-10"
+	]
+},
+{
+	"name": "Risun Kingdom",
+	"leaderName": "Leader",
+	"startBias": ["Hill"],
+	"preferredVictoryType": "Domination",
+
+	"startIntroPart1": "旭日东升，照耀我朝日勇士的征途！",
+	
+	"declaringWar": "让朝阳见证我军的荣耀！",
+	"attacked": "你竟敢挑战朝阳之威？自取灭亡！",
+	"defeated": "夕阳终会西沉...但朝阳必将再次升起...",
+	
+	"introduction": "吾乃旭日之王，愿朝阳指引我们的会面。",
+	
+	"neutralHello": "愿朝阳为你指路。",
+	"hateHello": "你挡着朝阳了。",
+	
+	"tradeRequest": "用你的资源换取朝阳的恩赐吧。",
+	
+	"outerColor": [255, 69, 0],  // 朝阳橙红色
+	"innerColor": [255, 215, 0],  // 金色
+	
+	"favoredReligion": "Shinto",
+	"uniqueName": "旭日之征",
+	"uniques": [
+	    "[+1 Production] [in all cities] <when at war>",
+		"[+7]% Strength <for [Military] units> <in [Enemy Land] tiles>",
+        "[Military] units gain the [Sun-Rise] promotion"
+	],
+	"cities": [
+		"Sun-Rise City",
+		"朝阳城堡",
+		"黎明要塞",
+		"曙光港",
+		"晨辉都",
+		"拂晓城",
+		"晨曦堡",
+		"钦北要塞",
+		"晨星港",
+		"朝都"
+	],
+	"spyNames": [
+		"spy-1",
+		"spy-2",
+		"spy-3",
+		"spy-4",
+		"spy-5",
+		"spy-6",
+		"spy-7",
+		"spy-8",
+		"spy-9",
+		"spy-10"
+	],
+	"civilopedia": [
+		{
+			"header": "朝日王国",
+			"text": "以旭日为象征的尚武王国，军队在敌境愈战愈勇。"
+		},
+		{
+			"header": "旭日之征",
+			"text": "朝日战士在敌境获得战斗加成，每场胜利都使他们更加精锐。"
+		}
+	]
+},
+{
+	"name": "Isni",
+	"leaderName": "Leader",
+	"personality": "伊斯尼",
+	"adjective": ["伊斯尼"],
+	"startBias": ["Desert"],
+	"preferredVictoryType": "Cultural",
+
+	"startIntroPart1": "沙海中的绿洲孕育着伊斯尼的智慧，商队驼铃传递着我们的信仰。",
+	
+	"declaringWar": "你玷污了神圣的商路，黄沙将吞噬你的野心！",
+	"attacked": "竟敢侵犯沙海子民？烈日将审判你的罪行！",
+	"defeated": "绿洲终会干涸...但商队永远记得伊斯尼的传说...",
+	
+	"introduction": "愿沙海之风带来你的问候，远方的旅人。",
+	
+	"neutralHello": "商队可带来远方的消息？",
+	"hateHello": "你的存在污染了这片沙海。",
+	
+	"tradeRequest": "以物易物，以心换心，这是伊斯尼的贸易之道。",
+	
+	"outerColor": [192, 192, 192],
+	"innerColor": [255, 215, 0],
+	
+	"favoredReligion": "Islam",
+	"uniqueName": "沙海圣约",
+	"uniques": [
+		"[+4 Culture] from each Trade Route",
+		"[+1 Faith] from [Desert] tiles [in all cities] <in tiles adjacent to [Fresh Water] tiles>",
+		"[+1 Gold] from [Oasis] tiles [in all cities]"
+	],
+	"cities": [
+		"city1",
+		"city2",
+		"city3",
+		"city4",
+		"city5",
+		"city6",
+		"city7",
+		"city8",
+		"city9",
+		"city10"
+	],
+	"spyNames": [
+		"spy-1",
+		"spy-2",
+		"spy-3",
+		"spy-4",
+		"spy-5",
+		"spy-6",
+		"spy-7",
+		"spy-8",
+		"spy-9",
+		"spy-10"
+	],
+	"civilopedia": [
+		{
+			"header": "伊斯尼文明",
+			"text": "沙漠中的商贸帝国，在贫瘠之地建立繁荣网络，将绿洲信仰传播四方。"
+		},
+		{
+			"header": "沙海圣约",
+			"text": "伊斯尼人视沙漠为神圣画布，淡水边缘的沙丘是神迹显现之地，每条商路都是文化传播的血管。"
+		}
+	]
+},
+{
+	"name": "Arcardia Trade Federation",
+	"leaderName": "Leader",
+	"personality": "商贸联邦",
+	"adjective": ["阿尔卡迪亚"],
+	"startBias": ["Coast", "Avoid Tundra"],
+	"preferredVictoryType": "Diplomatic",
+
+	"startIntroPart1": "海浪轻抚着我们的码头，金币在集市叮当作响 - 欢迎来到阿尔卡迪亚，万商之邦。",
+	
+	"declaringWar": "你威胁了自由贸易的根基！阿尔卡迪亚的舰队将捍卫我们的商业权利！",
+	"attacked": "愚蠢！你攻击的不只是港口，而是整个文明世界的贸易网络！",
+	"defeated": "账簿可以焚毁...但算术法则永恒...我们终将...重新计算...",
+	
+	"introduction": "以七海通商公约的名义，我代表联邦欢迎您的到来。要看看我们的货品清单吗？",
+	
+	"neutralHello": "愿今天的汇率对你有利。",
+	"hateHello": "你的信用评级正在下跌。",
+	
+	"tradeRequest": "这笔交易将记入双方的永久账目 - 你意下如何？",
+	
+	"outerColor": [0, 91, 187],  // 深海蓝
+	"innerColor": [218, 165, 32],  // 金币黄
+	
+	"favoredReligion": "Christianity",
+	"uniqueName": "万商公约",
+	"uniques": [
+		"[+4 Gold] from each Trade Route",
+		"[+50]% [Culture] from City-States",
+		"[+50]% [Gold] from City-States",
+		"[+50]% [Science] from City-States",
+		"[+50]% [Food] from City-States",
+		"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
+		"[-25]% maintenance costs <for [Water] units>",
+		"[+20]% Strength <for [Ranged Water] units> <vs [Water] units> <when attacking>"
+	],
+	"cities": [
+		"city-1",
+		"city-2",
+		"city-3",
+		"city4",
+		"city5",
+		"city6",
+		"city7",
+		"city8",
+		"city9",
+		"city10"
+	],
+	"spyNames": [
+		"spy1",
+		"spy2",
+		"spy3",
+		"spy4",
+		"spy5",
+		"spy6",
+		"spy7",
+		"spy8",
+		"spy9",
+		"spy10"
+	],
+	"civilopedia": [
+		{
+			"header": "商业文明典范",
+			"text": "由十二个自治商港组成的联邦，用复杂的契约法律代替封建效忠，用会计账簿代替史诗传说。"
+		},
+		{
+			"header": "万商公约",
+			"text": "阿尔卡迪亚人相信'契约重于血统'，其海军保护着史上最复杂的贸易网络，每个城邦盟友都是商业链条的重要环节。"
+		}
+	]
+},
+{
+	"name": "Yugoslavia",
+	"leaderName": "Leader",
+	"personality": "不结盟",
+	"adjective": ["南斯拉夫"],
+	"startBias": ["Hill", "Avoid Desert"],
+	"preferredVictoryType": "Cultural",
+
+	"startIntroPart1": "团结与兄弟情谊铸就了我们——六个共和国，五个民族，四种语言，三种宗教，两个字母，一个国家！",
+
+	"declaringWar": "以工人自治的名义，我们被迫拿起武器！",
+	"attacked": "你唤醒了巴尔干之虎！",
+	"defeated": "理想或许暂时沉睡...但各民族的团结永不消亡...",
+
+	"introduction": "欢迎来到不结盟运动的摇篮，让我们为和平与发展干杯！",
+	
+	"neutralHello": "同志，最近工厂产量如何？",
+	"hateHello": "帝国主义者！",
+
+	"tradeRequest": "这是互利共赢的工人合作项目。",
+
+	"outerColor": [0, 57, 146],  // 南斯拉夫蓝
+	"innerColor": [255, 255, 255],  // 白色+红星(需游戏内图标实现)
+
+	"favoredReligion": "Christianity",
+	"uniqueName": "斯拉夫民族的荣耀",
+	"uniques": [
+		"[+20] HP when healing <for [Foot Soldier] units> <when below [30] HP>",
+		"[+20]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+		"Instantly consumes [2] [Warfare Aversion Level] <for [Military] units> <upon defeating a [Military] unit>",
+		"[+1 Production] [in all cities with a garrison]"
+	],
+	"cities": [
+		"贝尔格莱德",
+		"萨格勒布",
+		"萨拉热窝",
+		"斯科普里",
+		"卢布尔雅那",
+		"铁托格勒",
+		"诺维萨德",
+		"尼什",
+		"普里什蒂纳",
+		"里耶卡"
+	],
+	"spyNames": [
+		"spy1",
+		"spy2",
+		"spy3",
+		"spy4",
+		"spy5",
+		"spy6",
+		"spy7",
+		"spy8",
+		"spy9",
+		"spy10"
+	],
+	"civilopedia": [
+		{
+			"header": "多民族联邦",
+			"text": "南斯拉夫开创了独特的社会主义道路，在巴尔干半岛实现各民族平等共处，工人自治制度闻名世界。"
+		},
+		{
+			"header": "不结盟运动",
+			"text": "既不属于东方阵营也不依附西方集团，通过独立自主的外交政策维护国家主权。"
+		}
+	]
+},
+{
+    "name": "Italy",
+    "leaderName": "Leader",
+    "adjective": ["意大利"],
+    "personality": "文艺复兴",
+    "startBias": ["Coast", "Avoid Tundra"],
+    "preferredVictoryType": "Cultural",
+
+    "startIntroPart1": "在圣母百花大教堂的穹顶下，我们重燃古典智慧的火炬——欢迎来到文艺复兴的摇篮！",
+
+    "declaringWar": "你竟敢威胁雅典学院的精神后裔？",
+    "attacked": "雇佣兵队长们！是时候证明你们的契约价值了！", 
+    "defeated": "艺术永恒...纵使城邦陨落...",
+
+    "introduction": "我是佛罗伦萨的守护者，让我们谈谈艺术赞助的事宜如何？",
+    "neutralHello": "愿人文之光指引你",
+    "hateHello": "庸俗之徒！",
+
+    "outerColor": [0, 140, 69],  // 意大利绿
+    "innerColor": [205, 33, 42],  // 意大利红
+
+    "favoredReligion": "Christianity",
+    "uniqueName": "文艺复兴浪潮",
+
+    "uniques": [
+        "Triggers a [Renaissance Choice] event <upon entering a new era> <after turn number [5]>",
+        "[-1]% Culture cost of adopting new Policies <for every [2] [Happiness]> <when below [50] [Happiness]>",
+            "[-25]% Culture cost of adopting new Policies <when above [50] [Happiness]>"
+    ],
+
+    "cities": [
+        "佛罗伦萨",
+        "威尼斯",
+        "热那亚",
+        "米兰",
+        "罗马",
+        "锡耶纳",
+        "比萨",
+        "博洛尼亚",
+        "费拉拉",
+        "乌尔比诺"
+    ],
+
+    "spyNames": [
+        "spy1",
+        "spy2", 
+        "spy3",
+        "spy4",
+        "spy5",
+        "spy6",
+        "spy7",
+        "spy8",
+        "spy9",
+        "spy10"
+    ]
+}
+]

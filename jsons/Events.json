@@ -1,0 +1,27 @@
+[
+  {
+  "name": "Renaissance Choice",
+     "choices": [
+        {
+        "text": "Innovation",
+        "uniques": [
+            "[+15]% [Production] <for [10] turns>",
+            "[+10]% [Science] <for [10] turns>"
+        ]
+        },
+        {
+        "text": "Renaissance",
+        "uniques": [
+            "[+20]% [Culture] <for [5] turns>",
+            "[+50]% [Gold] <for [5] turns> <after turn number [5]>"
+        ]
+        },
+        {
+        "text": "Democracy",
+        "uniques": [
+            "Gain [20] [Culture] <for every [Happiness]>"
+            ]
+        }
+     ]
+  }
+]
