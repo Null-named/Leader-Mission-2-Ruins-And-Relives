@@ -1,0 +1,216 @@
+[
+{
+	"name": "Royal Guard",
+	"unitType": "Foot Soldier",
+	"uniqueTo": "Farvi",
+	"replaces": "Swordsman",
+	"movement": 2,
+	"strength": 15,
+	"cost": 72,
+	"requiredTech": "Iron Working",
+	"upgradesTo": "Longswordsman",
+	"obsoleteTech": "Steel",
+	"promotions": ["Well-Trained"],
+	"uniques": ["Costs [10] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"],
+	"attackSound": "metalhit"
+},
+{
+	"name": "Glory-class Missile Destroyer",
+	"unitType": "Melee Water",
+	"uniqueTo": "Farvi",
+	"replaces": "Destroyer",
+	"movement": 5,
+	"strength": 55,
+	"interceptRange": 2,
+	"cost": 680,
+	"requiredTech": "Combustion",
+	"upgradesTo": "Missile Cruiser",
+	"uniques": [
+		"Costs [20] [Steels]",
+		"Consumes [1] [Coal]",
+		"Can see invisible [Submarine] units",
+		"[60]% chance to intercept air attacks",
+		"Withdraws before melee combat <with [80]% chance>",
+		"[+100]% Strength <vs [Submarine] units>",
+		"[+1] Sight",
+		"Can carry [2] [Flybomb] units",
+		"[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"
+	],
+	"attackSound": "shipguns"
+},
+{
+	"name": "Barbarian Warrior",
+	"unitType": "Foot Soldier",
+	"uniqueTo": "Risun Kingdom",
+	"replaces": "Warrior",
+	"movement": 2,
+	"strength": 7,
+	"cost": 26,
+	"obsoleteTech": "Iron Working",
+	"upgradesTo": "Swordsman",
+	"uniques": [
+		"[+10]% Strength <when attacking>",
+		"[-3]% Strength <when below [75] HP>",
+		"[-7]% Strength <when below [50] HP>",
+		"[-15]% Strength <when below [25] HP>",
+		"May upgrade to [Spearman] through ruins-like effects",
+		"Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
+	],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Light Archer",
+	"unitType": "Shooter",
+	"uniqueTo": "Risun Kingdom",
+	"replaces": "Composite Bowman",
+	"movement": 3,
+	"strength": 6,
+	"rangedStrength": 9,
+	"cost": 60,
+	"requiredTech": "Iron Working",
+	"obsoleteTech": "Steel",
+	"upgradesTo": "Crossbowman",
+	"uniques": [
+		"[+12]% Strength <when defending> <when adjacent to a [Military] unit>",
+		"[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"
+	],
+	"attackSound": "arrow"
+},
+{
+	"name": "Rocket Emplacement",
+	"unitType": "Siege",
+	"uniqueTo": "Risun Kingdom",
+	"replaces": "Rocket Artillery",
+	"movement": 2,
+	"strength": 50,
+	"rangedStrength": 47,
+	"range": 4,
+	"cost": 880,
+	"requiredTech": "Rocketry",
+	"uniques": [
+		"Costs [15] [Aluminum]",
+		"No defensive terrain bonus",
+		"Must set up to ranged attack",
+		"[-1] Sight",
+		"[+200]% Strength <vs cities> <when attacking>",
+		"Can carry [1] [Flybomb] units",
+		"[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [1] movement>",
+		"[+50]% Strength <when fighting in [Fort] tiles> <when attacking>",
+		"[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"
+	],
+	"promotions": ["Indirect Fire","Continuous Attack"],
+	"attackSound": "artillery"
+},
+{
+	"name": "Desert Raider",
+	"unitType": "Mobile",
+	"uniqueTo": "Isni",
+	"replaces": "Horseman",
+	"movement": 4,
+	"strength": 15,
+	"cost": 72,
+	"requiredTech": "Horseback Riding",
+	"upgradesTo": "Knight",
+	"obsoleteTech": "Chivalry",
+	"uniques": [
+		"Consumes [1] [Horses]",
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"[+10]% Strength <when fighting in [Desert] tiles> <when attacking>",
+		"[-10]% Strength <when fighting in [Rough terrain] tiles>"
+	],
+	"attackSound": "horse"
+},
+{
+	"name": "Heavy Crossbowman",
+	"unitType": "Shooter",
+	"uniqueTo": "Isni",
+	"replaces": "Crossbowman",
+	"movement": 2,
+	"strength": 11,
+	"rangedStrength": 20,
+	"cost": 145,
+	"requiredTech": "Steel",
+	"upgradesTo": "Gatling Gun",
+	"obsoleteTech": "Military Science",
+	"uniques": [
+		"[+15]% Strength <vs [Wounded] units>",
+		"[+10]% Strength <when fighting in [Open terrain] tiles>",
+		"[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"
+	],
+	"attackSound": "arrow"
+},
+{
+	"name": "Trireme Light Ship",
+	"unitType": "Melee Water",
+	"uniqueTo": "Arcardia Trade Federation",
+	"replaces": "Trireme",
+	"movement": 5,
+	"strength": 8,
+	"cost": 40,
+	"requiredTech": "Sailing",
+	"upgradesTo": "Caravel",
+	"obsoleteTech": "Astronomy",
+	"uniques": [
+		"Withdraws before melee combat <with [20]% chance>"
+	],
+	"attackSound": "nonmetalhit"
+},
+{
+	"name": "Escort Fleet",
+	"unitType": "Ranged Water",
+	"uniqueTo": "Arcardia Trade Federation",
+	"replaces": "Galleass",
+	"movement": 3,
+	"strength": 17,
+	"rangedStrength": 18,
+	"range": 2,
+	"cost": 145,
+	"requiredTech": "Compass",
+	"obsoleteTech": "Navigation",
+	"upgradesTo": "Frigate",
+	"uniques": [
+		"[+10]% Strength <when above [50] HP>"
+	],
+	"attackSound": "arrow"
+},
+{
+	"name": "SO-122",
+	"unitType": "Mobile",
+	"uniqueTo": "Yugoslavia",
+	"replaces": "Tank",
+	"movement": 4,
+	"strength": 85,
+	"cost": 780,
+	"requiredTech": "Combined Arms",
+	"upgradesTo": "Modern Armor",
+	"uniques": [
+		"Costs [20] [Steels]",
+		"Consumes [1] [Oil]",
+		"Can move after attacking",
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+		"[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"
+	],
+	"attackSound": "tankshot"
+},
+{
+    "name": "Red Shirys",
+    "unitType": "Foot Soldier",
+    "uniqueTo": "Italy",
+    "replace": "Rifleman",
+    "movement": 2,
+    "strength": 35,
+    "cost": 320,
+    "requiredTech": "Rifling",
+	"obsoleteTech": "Replaceable Parts",
+	"upgradesTo": "Great War Infantry",
+	"uniques":[
+	    "[+10]% Strength <vs [Military] units> <when defending>",
+	    "[+10]% Strength <when fighting in [Hill] tiles>",
+	    "Double movement in [Hill]"
+	],
+	"attackSound": "shot"	
+}
+]
