@@ -179,7 +179,7 @@
     "cost": 1,
     "uniqueTo": "Italy",
     "uniques": [
-        "Can only bebuilt<in [in capital] cities>",
+        "Can only be built<in [in capital] cities>",
         "Only available <in cities without a [Civilized Leader-Francesco Petrarca]>",
         "Only available <in cities without a [Civilized Leader-Camillo Benso Conte Cavour]>",
         "[+1 Faith] from all [Gold] buildings",
