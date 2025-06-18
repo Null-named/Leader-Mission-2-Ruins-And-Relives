@@ -200,6 +200,8 @@
     "unitType": "Foot Soldier",
     "uniqueTo": "Italy",
     "replace": "Rifleman",
+    "requiredTech": "Gunpowder",
+    "obsoleteTech": "Rifling",
     "movement": 2,
     "strength": 35,
     "cost": 320,
