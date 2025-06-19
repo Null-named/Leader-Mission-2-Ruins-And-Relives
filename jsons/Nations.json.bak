@@ -404,7 +404,7 @@
 	"uniqueName": "Glory of Bohemia",
 	"uniques": [
 		"[+1 Food] from [Farm] tiles [in all cities] <within [1] tiles of a [City center]>"
-		"[+1 Production] from [Mine] tiles [in all cities] <within [1] tiles of a [Farm]> <after discovering [Industrialization]>",
+		"[+1 Production] from [Mine] tiles [in all cities] <within 1 tiles of a [Farm]> <after discovering [Industrialization]>",
 		"[+10]% Strength <for [Mobile] units>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
 		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
@@ -446,7 +446,7 @@
 },
 {
 	"name": "Teutonic Order",
-	"leaderName": "Leader",
+	"leaderName": "Grand Master",
 	"personality": "Militaristic Religious",
 	"adjective": ["Templar"],
 	"startBias": ["Hill"],

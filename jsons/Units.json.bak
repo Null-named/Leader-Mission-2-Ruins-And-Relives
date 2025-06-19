@@ -421,8 +421,9 @@
         "[+20]% Strength <when fighting in [Tundra] tiles> <when attacking>",
         "[+20]% Strength <when fighting in [Snow] tiles> <when attacking>",
         "[+1] Sight",
-        "Can build [Road] improvements on tiles"
-    ]
+        "Can build [Road] improvements on tiles",
+        "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"
+    ],
     "attackSound": "shot"
 }
 ]

@@ -229,36 +229,6 @@
     "quote": "'From the altar to the treasury, God's work and gold are one.' - Albrecht's Reformation Principle"
 },
 {
-    "name": "Civilized Leader-Sir John A. Macdonald",
-    "isNationalWonder": true,
-    "cost": 1,
-    "uniqueTo": "Canada",
-    "uniques": [
-        "Can only be built<in [in capital] cities>",
-        "Only available <in cities without a [Civilized Leader-Sir Wilfrid Laurier]>",
-        "[-50]% construction time for [Road] improvements",
-        "[-50]% construction time for [Railroad] improvements",
-        "[+3 Gold] from [Customs house] tiles [in all cities]",
-        "[+1 Culture] from [Customs house] tiles [in all cities]",
-        "[+1 Culture] from [Manufactory] tiles [in all cities]"
-    ],
-    "quote": "'Let us be English or let us be French... but above all let us be Canadians.'"
-},
-{
-    "name": "Civilized Leader-Sir Wilfrid Laurier",
-    "isNationalWonder": true,
-    "cost": 1,
-    "uniqueTo": "Canada",
-    "uniques": [
-        "Can only be built<in [in capital] cities>",
-        "Only available <in cities without a [Civilized Leader-Sir John A. Macdonald]>",
-        "[+10]% growth [in all cities]",
-        "Each city founded increases culture cost of policies [30]% less than normal",
-        "Gain a free [Granary] [in all cities] <after discovering [Fertilizer]>"
-    ],
-    "quote": "'The 20th century shall be the century of Canada and of Canadian development.'"
-},
-{
     "name": "Duomo di Milano",
     "replaces": "Grand Temple",
     "uniqueTo": "Italy",
@@ -360,6 +330,36 @@
         "Provides [1] [Number of Buildings] <in this city>"
     ],
     "quote": "'Culture should belong to the people, not the palaces.' - Antonín Zápotocký"
+},
+{
+    "name": "Civilized Leader-Sir John A. Macdonald",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Canada",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Sir Wilfrid Laurier]>",
+        "[-50]% construction time for [Road] improvements",
+        "[-50]% construction time for [Railroad] improvements",
+        "[+3 Gold] from [Customs house] tiles [in all cities]",
+        "[+1 Culture] from [Customs house] tiles [in all cities]",
+        "[+1 Culture] from [Manufactory] tiles [in all cities]"
+    ],
+    "quote": "'Let us be English or let us be French... but above all let us be Canadians.'"
+},
+{
+    "name": "Civilized Leader-Sir Wilfrid Laurier",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Canada",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Sir John A. Macdonald]>",
+        "[+10]% growth [in all cities]",
+        "Each city founded increases culture cost of policies [30]% less than normal",
+        "Gain a free [Granary] [in all cities] <after discovering [Fertilizer]>"
+    ],
+    "quote": "'The 20th century shall be the century of Canada and of Canadian development.'"
 },
 {
     "name": "Maple Syrup Camp",

@@ -1,0 +1,22 @@
+[
+{
+    "name": "Well-Trained",
+    "uniques": [
+        "[+7]% Strength <when attacking> <when adjacent to a [Military] unit>",
+        "[+10]% Strength <when defending>"
+    ]
+},
+{
+    "name": "Sun-Rise",
+    "uniques": [
+        "[This Unit] gains [5] XP <upon defeating a [Military] unit>"
+    ]
+},
+{
+    "name": "Builder",
+    "uniques": [
+          "Can construct [Farm] improvements on tiles",
+          "Can construct [All Road] improvements on tiles"
+    ]
+}
+]
