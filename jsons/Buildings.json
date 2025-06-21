@@ -423,7 +423,7 @@
     "cost": 300,
     "culture": 2,
     "production": 1,
-    "Happiness": 3,
+    "happiness": 3,
     "maintenance": 4,
     "greatPersonPoints": {"Great Artist": 1,"Great Scientist": 1},
     "specialistSlots": {"Artist": 1,"Scientist": 1},
