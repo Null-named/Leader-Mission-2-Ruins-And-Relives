@@ -424,5 +424,71 @@
         "Can build [Road] improvements on tiles"
     ]
     "attackSound": "shot"
+},
+{
+    "name": "Boyar Knight",
+    "unitType": "Mobile",
+    "replaces": "Knight",
+    "uniqueTo": "Bulgaria",
+    "movement": 3,
+    "strength": 22,
+    "cost": 175,
+    "requiredTech": "Chivalry",
+    "obsoleteTech": "Military Science",
+    "upgradesTo": "Cavalry",
+    "uniques": [
+        "Consumes [1] [Horses]", 
+        "Costs [10] [Iron]",  
+        "Can move after attacking",
+        "No defensive terrain bonus", 
+        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
+        "[-33]% Strength <vs cities> <when attacking>", 
+        "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>",
+        "[+10]% Strength <when fighting in [Hill] tiles> <when defending>",
+        "[+10]% Strength <when fighting in [Forest] tiles> <when defending>",
+        "[+15]% Strength <when fighting in [Foreign Land] tiles> <when attacking> <in cities with a [foreign] religion>"
+    ],
+    "attackSound": "horse"
+},
+{
+    "name": "Speckor",
+    "unitType": "Anti-Mobile",
+    "replaces": "Pikeman",
+    "uniqueTo": "Georgia",
+    "movement": 2,
+    "strength": 15,
+    "cost": 115,
+    "requiredTech": "Defensive Fortification",
+    "upgradesTo": "Lancer",
+    "obsoleteTech": "Metallurgy",
+    "uniques": [
+        "[+50]% Strength <vs [Mobile] units>",
+        "[+15]% Strength <when defending>",
+        "Double movement in [Hill]",
+        "Earn [100]% of killed [Military] unit's [Strength] as [Faith] <when fighting in [Hill] tiles>",
+        "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
+    ],
+    "attackSound": "metalhit"
+},
+{
+    "name": "Belgian Partisan",
+    "unitType": "Foot Soldier",
+    "replaces": "Rifleman",
+    "uniqueTo": "Belgium",
+    "movement": 3,
+    "strength": 32,
+    "cost": 300,
+    "requiredTech": "Rifling",
+    "obsoleteTech": "Replaceable Parts",
+    "upgradesTo": "Great War Infantry",
+    "uniques": [
+        "[+10]% Strength <vs [Military] units> <when defending>",
+        "[+100]% Strength <vs cities> <when defending>",
+        "[This Unit] heals [5] HP <upon turn end> <in [Hill] tiles>",
+        "[This Unit] heals [5] HP <upon turn end> <in [Forest] tiles>",
+        "[This Unit] heals [5] HP <upon turn end> <in [Jungle] tiles>",
+        "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
+    ],
+    "attackSound": "shot"
 }
 ]
