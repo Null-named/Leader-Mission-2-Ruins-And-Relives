@@ -8,7 +8,7 @@
         "Can only be built<in [in capital] cities>",
         "Only available <in cities without a [Civilized Leader-Jufeai]>",
         "Only available <in cities without a [Civilized Leader-Fermar]>",
-        "[+2 Science] per [8] population [in all cities]",
+        "[+1 Science] per [5] population [in all cities]",
         "[+10]% Production when constructing [Military] units [in all cities] <when at war>"
     ]
 },
@@ -259,6 +259,81 @@
     "quote": "'The 20th century shall be the century of Canada and of Canadian development.'"
 },
 {
+    "name": "Civilized Leader-Khan Krum",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Bulgaria",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Simeon Sakskoburggotski]>",
+        "[+1 Faith] [in all cities with a garrison]",
+        "[-10]% Production when constructing [Military] units [in all cities]",
+        "[+7]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>",
+        "[+5]% Strength <for [Military] units> <after founding a religion>",
+        "[+5]% Strength <for [Military] units> <after enhancing a religion>"
+    ],
+    "quote": "'A tree must be bent while it is young.' - Khan Krum"
+},
+{
+    "name": "Civilized Leader-Simeon Sakskoburggotski",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Bulgaria",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Khan Krum]>",
+        "[+1 Culture]",
+        "[+1 Culture] [in all cities] <after discovering [Nation]>",
+        "[+10]% [Production] [in all cities] <in cities without a [Civilized Leader-Simeon Sakskoburggotski]> <after turn number [30]>",
+        "[+1 Culture] from every specialist [in all cities]"
+    ],
+    "quote": "'Bulgaria's greatness lies in its diversity.' - Simeon II"
+},
+{
+    "name": "Civilized Leader-David IV",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Georgia",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "[+1 Faith] per [3] population [in capital]",
+        "[+2 Production] [in capital] <when at war>",
+        "[+20]% Natural religion spread [in capital]",
+        "[+1 Science] [in all cities] <in cities with at least [3] [Population]>"
+    ],
+    "quote": "'I have taken up the cross of Christ; let me be tested by the fire of the enemy.' - David IV"
+},
+{
+    "name": "Civilized Leader-Leopold I",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Belgium",
+    "uniques": [
+        "Can only be built <in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Jean-Luc Dehaene]>",
+        "Instantly gain [2] [Culture] <upon turn end> <every [5] turns> <for every [Happiness]>",
+        "[+15]% Production when constructing [Production] buildings [in all cities]",
+        "Empire enters a [5]-turn Golden Age <upon entering a new era>"
+    ],
+    "quote": "'The union makes strength.' - Belgian motto"
+},
+{
+    "name": "Civilized Leader-Jean-Luc Dehaene",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Belgium",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Leopold I]>",
+        "[15]% Food is carried over after population increases [in all cities]",
+        "[+1 Culture, -1 Gold] per [3] population [in all cities]",
+        "[+10 Happiness] <when number of [Happiness] is between [-10] and [0]> <during a Golden Age>",
+        "Instantly gain [50] [Golden Age points] <upon expending a [Great Person] unit>"
+    ],
+    "quote": "'Compromise is the oxygen of democracy.' - Jean-Luc Dehaene"
+},
+//奇观
+{
     "name": "Duomo di Milano",
     "replaces": "Grand Temple",
     "uniqueTo": "Italy",
@@ -277,6 +352,7 @@
     "requiredTech": "Theology",
     "quote": "'The devil is in the details, but so is salvation.' - Milanese proverb"
 },
+//建筑
 {
     "name": "Seminar",
     "replaces": "Library",
@@ -288,7 +364,7 @@
     "uniques": [
         "Only available <in cities with a [City Level I]>",
         "[+1 Science] per [4] population [in this city]",
-        "[+2 Science] per [8] population [in this city]",
+        "[+1 Science] per [8] population [in this city]",
         "[+2 Science] per [12] population [in this city]",
         "[+2 Science] per [16] population [in this city]",
         "Provides [1] [Number of Buildings] <in this city>"
@@ -378,5 +454,58 @@
         "Destroyed when the city is captured"
     ],
     "quote": "'As Canadian as maple syrup.' - Popular saying"
+},
+{
+    "name": "Preslav Pottery Workshop",
+    "replaces": "Workshop",
+    "uniqueTo": "Bulgaria",
+    "cost": 110,
+    "production": 2,
+    "percentStatBonus": {"production": 15},
+    "SpecialistSlots": {"Engineer": 1},
+    "culture": 1,
+    "faith": 1,
+    "maintenance": 2,
+    "requiredTech": "Machinery",
+    "uniques": [
+        "Only available <in cities with a [City Level III]>",
+        "Provides [1] [Number of Buildings] <in this city>",
+        "Destroyed when the city is captured"
+    ],
+    "quote": "'The clay remembers the hand that shaped it.' - Bulgarian proverb"
+},
+{
+    "name": "Gelati Monastery",
+    "replaces": "Temple",
+    "uniqueTo": "Georgia",
+    "faith": 1,
+    "percentStatBonus": {"science": 10},
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "uniques": [
+        "Only available <in cities with a [City Level II]>",
+        "Destroyed when the city is captured",
+        "[+1 Science] per [4] population [in this city]",
+        "[+1 Faith] per [2] population [in this city]",
+        "Provides [1] [Number of Buildings] <in this city>"
+    ],
+    "quote": "'The second Jerusalem' - Georgian chronicles"
+},
+{
+    "name": "Brewery",
+    "replaces": "Market",
+    "uniqueTo": "Belgium",
+    "gold": 2,
+    "specialistSlots": {"Merchant": 2},
+    "percentStatBonus": {"gold": 25},
+    "maintenance": 1,
+    "requiredTech": "Currency",
+    "uniques": [
+        "Only available <in cities with a [City Level II]>",
+        "[+1 Culture, +2 Gold] from [Wheat] tiles [in this city]",
+        "Provides [1] [Number of Buildings] <in this city>"
+    ],
+    "quote": "'In beer there is freedom, in water there is bacteria.' - Belgian proverb"
 }
+//计数器
 ]
