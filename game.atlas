@@ -4,9 +4,16 @@ size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Brewery
+  rotate: false
+  xy: 668, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Caravanserai
   rotate: false
-  xy: 112, 112
+  xy: 668, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -33,6 +40,13 @@ BuildingIcons/Civilized Leader-Barian
   offset: 0, 0
   index: -1
 BuildingIcons/Civilized Leader-Camillo Benso Conte Cavour
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/Civilized Leader-David IV
   rotate: false
   xy: 4, 220
   size: 270, 270
@@ -81,6 +95,13 @@ BuildingIcons/Civilized Leader-Hermann von Salza
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/Civilized Leader-Jean-Luc Dehaene
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Civilized Leader-Josip Broz Tito
   rotate: false
   xy: 4, 220
@@ -95,6 +116,20 @@ BuildingIcons/Civilized Leader-Jufeai
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/Civilized Leader-Khan Krum
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/Civilized Leader-Leopold I
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Civilized Leader-Lubia II
   rotate: false
   xy: 4, 220
@@ -103,6 +138,13 @@ BuildingIcons/Civilized Leader-Lubia II
   offset: 0, 0
   index: -1
 BuildingIcons/Civilized Leader-Obbertis
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/Civilized Leader-Simeon Sakskoburggotski
   rotate: false
   xy: 4, 220
   size: 270, 270
@@ -130,6 +172,13 @@ BuildingIcons/Civilized Leader-Tomáš Garrigue Masaryk
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/Land of Distinguished Minds
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Civilized Leader-Branlin IV
   rotate: false
   xy: 282, 220
@@ -137,37 +186,51 @@ BuildingIcons/Civilized Leader-Branlin IV
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/Gelati Monastery
+  rotate: false
+  xy: 884, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Lidový dům
   rotate: false
-  xy: 436, 112
+  xy: 1208, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Maple Syrup Camp
   rotate: false
-  xy: 992, 390
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Seminar
-  rotate: false
   xy: 1316, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sun Temple
+BuildingIcons/Preslav Pottery Workshop
   rotate: false
   xy: 1316, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Seminar
+  rotate: false
+  xy: 1748, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sun Temple
+  rotate: false
+  xy: 1856, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Trade Seaport
   rotate: false
-  xy: 1532, 390
+  xy: 668, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -179,58 +242,79 @@ NationIcons/Arcardia Trade Federation
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Belgium
+  rotate: false
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Bulgaria
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Canada
-  rotate: false
-  xy: 4, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Czechoslovakia
-  rotate: false
-  xy: 560, 282
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Farvi
   rotate: false
   xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Isni
+NationIcons/Czechoslovakia
+  rotate: false
+  xy: 776, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Farvi
   rotate: false
   xy: 776, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Italy
+NationIcons/Georgia
   rotate: false
-  xy: 884, 390
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Risun Kingdom
+NationIcons/Isni
   rotate: false
   xy: 992, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Teutonic Order
+NationIcons/Italy
+  rotate: false
+  xy: 1100, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Risun Kingdom
   rotate: false
   xy: 1424, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Teutonic Order
+  rotate: false
+  xy: 560, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Yugoslavia
   rotate: false
-  xy: 1640, 390
+  xy: 884, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -242,107 +326,128 @@ UnitIcons/Barbarian Warrior
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Belgian Partisan
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Boyar Knight
+  rotate: false
+  xy: 560, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Desert Raider
-  rotate: false
-  xy: 668, 390
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Escort Fleet
-  rotate: false
-  xy: 112, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Glory-class Missile Destroyer
-  rotate: false
-  xy: 668, 282
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Grand Master
-  rotate: false
-  xy: 776, 390
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Heavy Crossbowman
   rotate: false
   xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Hussite War Wagon
+UnitIcons/Escort Fleet
   rotate: false
   xy: 328, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/LT-38
+UnitIcons/Glory-class Missile Destroyer
   rotate: false
-  xy: 328, 4
+  xy: 436, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Light Archer
+UnitIcons/Grand Master
   rotate: false
   xy: 884, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Red Shirys
+UnitIcons/Heavy Crossbowman
+  rotate: false
+  xy: 992, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hussite War Wagon
   rotate: false
   xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Rocket Emplacement
-  rotate: false
-  xy: 1100, 390
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Canadian Mounted Police
+UnitIcons/LT-38
   rotate: false
   xy: 1100, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Royal Guard
-  rotate: false
-  xy: 1208, 390
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/SO-122
+UnitIcons/Light Archer
   rotate: false
   xy: 1208, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Teutonic Knight
+UnitIcons/Red Shirys
   rotate: false
   xy: 1424, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Trireme Light Ship
+UnitIcons/Rocket Emplacement
+  rotate: false
+  xy: 1532, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Royal Canadian Mounted Police
   rotate: false
   xy: 1532, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Royal Guard
+  rotate: false
+  xy: 1640, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/SO-122
+  rotate: false
+  xy: 1640, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Speckor
+  rotate: false
+  xy: 1748, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Teutonic Knight
+  rotate: false
+  xy: 1856, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Trireme Light Ship
+  rotate: false
+  xy: 776, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
