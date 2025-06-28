@@ -18,6 +18,13 @@ BuildingIcons/Caravanserai
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Civilized Leader-Abdul Karim Qasim
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Civilized Leader-Albrecht von Brandenburg-Ansbach
   rotate: false
   xy: 4, 220
@@ -88,6 +95,13 @@ BuildingIcons/Civilized Leader-Francesco Petrarca
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/Civilized Leader-Gilgamesh
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Civilized Leader-Hermann von Salza
   rotate: false
   xy: 4, 220
@@ -144,6 +158,20 @@ BuildingIcons/Civilized Leader-Obbertis
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/Civilized Leader-Richard Seddon
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/Civilized Leader-Saddam Hussein
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Civilized Leader-Simeon Sakskoburggotski
   rotate: false
   xy: 4, 220
@@ -166,6 +194,13 @@ BuildingIcons/Civilized Leader-Sir Wilfrid Laurier
   offset: 0, 0
   index: -1
 BuildingIcons/Civilized Leader-Tomáš Garrigue Masaryk
+  rotate: false
+  xy: 4, 220
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/Civilized Leader-Urukagina
   rotate: false
   xy: 4, 220
   size: 270, 270
@@ -195,42 +230,56 @@ BuildingIcons/Gelati Monastery
   index: -1
 BuildingIcons/Lidový dům
   rotate: false
-  xy: 1208, 390
+  xy: 1208, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Maple Syrup Camp
   rotate: false
-  xy: 1316, 390
+  xy: 1424, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Meadow
+  rotate: false
+  xy: 1532, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Preslav Pottery Workshop
   rotate: false
-  xy: 1316, 282
+  xy: 1640, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Seminar
   rotate: false
-  xy: 1748, 390
+  xy: 776, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sun Temple
   rotate: false
-  xy: 1856, 390
+  xy: 1208, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Trade Seaport
   rotate: false
-  xy: 668, 174
+  xy: 1532, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ziggurat
+  rotate: false
+  xy: 544, 66
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -284,37 +333,58 @@ NationIcons/Georgia
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Isni
+NationIcons/Iraq
   rotate: false
   xy: 992, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Italy
+NationIcons/Isni
   rotate: false
   xy: 1100, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Italy
+  rotate: false
+  xy: 1100, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/New Zealand
+  rotate: false
+  xy: 1532, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Risun Kingdom
   rotate: false
-  xy: 1424, 282
+  xy: 1748, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sumer
+  rotate: false
+  xy: 992, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Teutonic Order
   rotate: false
-  xy: 560, 174
+  xy: 1424, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Yugoslavia
   rotate: false
-  xy: 884, 174
+  xy: 1856, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -384,70 +454,105 @@ UnitIcons/Hussite War Wagon
   index: -1
 UnitIcons/LT-38
   rotate: false
-  xy: 1100, 282
+  xy: 1208, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Light Archer
   rotate: false
-  xy: 1208, 282
+  xy: 1316, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Red Shirys
+UnitIcons/Maori Commando
+  rotate: false
+  xy: 1316, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Maori Swordsman
   rotate: false
   xy: 1424, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Rocket Emplacement
-  rotate: false
-  xy: 1532, 390
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Canadian Mounted Police
-  rotate: false
-  xy: 1532, 282
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Guard
-  rotate: false
-  xy: 1640, 390
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/SO-122
+UnitIcons/Red Shirys
   rotate: false
   xy: 1640, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Speckor
+UnitIcons/Republican Guard
   rotate: false
-  xy: 1748, 282
+  xy: 1748, 390
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Teutonic Knight
+UnitIcons/Rocket Emplacement
+  rotate: false
+  xy: 1856, 390
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Royal Canadian Mounted Police
   rotate: false
   xy: 1856, 282
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Royal Guard
+  rotate: false
+  xy: 560, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/SO-122
+  rotate: false
+  xy: 668, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Speckor
+  rotate: false
+  xy: 884, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sumerian War Chariot
+  rotate: false
+  xy: 1100, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Teutonic Knight
+  rotate: false
+  xy: 1316, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Trireme Light Ship
   rotate: false
-  xy: 776, 174
+  xy: 1640, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Uruk Phalanx
+  rotate: false
+  xy: 1748, 174
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
