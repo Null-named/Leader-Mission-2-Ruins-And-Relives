@@ -12,4 +12,10 @@
         "[This Unit] gains [5] XP <upon defeating a [Military] unit>"
     ]
 },
+{
+     "name": "Maori Heritage",
+     "uniques": [
+       "[+15]% Strength bonus for [Military] units within [1] tiles"
+     ]
+}
 ]

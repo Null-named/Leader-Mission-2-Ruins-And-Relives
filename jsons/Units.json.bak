@@ -285,8 +285,8 @@
     "uniqueTo": "Teutonic Order",
     "replaces": "Knight",
     "movement": 4,
-    "strength": 22,
-    "cost": 150,
+    "strength": 24,
+    "cost": 158,
     "requiredTech": "Chivalry",
     "upgradesTo": "Cavalry",
     "uniques": [
@@ -421,8 +421,168 @@
         "[+20]% Strength <when fighting in [Tundra] tiles> <when attacking>",
         "[+20]% Strength <when fighting in [Snow] tiles> <when attacking>",
         "[+1] Sight",
-        "Can build [Road] improvements on tiles",
-        "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"
+        "Can build [Road] improvements on tiles"
+    ]
+    "attackSound": "shot"
+},
+{
+    "name": "Boyar Knight",
+    "unitType": "Mobile",
+    "replaces": "Knight",
+    "uniqueTo": "Bulgaria",
+    "movement": 3,
+    "strength": 24,
+    "cost": 183,
+    "requiredTech": "Chivalry",
+    "obsoleteTech": "Military Science",
+    "upgradesTo": "Cavalry",
+    "uniques": [
+        "Consumes [1] [Horses]", 
+        "Costs [10] [Iron]",  
+        "Can move after attacking",
+        "No defensive terrain bonus", 
+        "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
+        "[-33]% Strength <vs cities> <when attacking>", 
+        "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>",
+        "[+10]% Strength <when fighting in [Hill] tiles> <when defending>",
+        "[+10]% Strength <when fighting in [Forest] tiles> <when defending>",
+        "[+15]% Strength <when fighting in [Foreign Land] tiles> <when attacking> <in cities with a [foreign] religion>"
+    ],
+    "attackSound": "horse"
+},
+{
+    "name": "Speckor",
+    "unitType": "Anti-Mobile",
+    "replaces": "Pikeman",
+    "uniqueTo": "Georgia",
+    "movement": 2,
+    "strength": 15,
+    "cost": 115,
+    "requiredTech": "Defensive Fortification",
+    "upgradesTo": "Lancer",
+    "obsoleteTech": "Metallurgy",
+    "uniques": [
+        "[+50]% Strength <vs [Mobile] units>",
+        "[+15]% Strength <when defending>",
+        "Double movement in [Hill]",
+        "Earn [100]% of killed [Military] unit's [Strength] as [Faith] <when fighting in [Hill] tiles>",
+        "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
+    ],
+    "attackSound": "metalhit"
+},
+{
+    "name": "Belgian Partisan",
+    "unitType": "Foot Soldier",
+    "replaces": "Rifleman",
+    "uniqueTo": "Belgium",
+    "movement": 3,
+    "strength": 32,
+    "cost": 300,
+    "requiredTech": "Rifling",
+    "obsoleteTech": "Replaceable Parts",
+    "upgradesTo": "Great War Infantry",
+    "uniques": [
+        "[+10]% Strength <vs [Military] units> <when defending>",
+        "[+100]% Strength <vs cities> <when defending>",
+        "[This Unit] heals [5] HP <upon turn end> <in [Hill] tiles>",
+        "[This Unit] heals [5] HP <upon turn end> <in [Forest] tiles>",
+        "[This Unit] heals [5] HP <upon turn end> <in [Jungle] tiles>",
+        "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
+    ],
+    "attackSound": "shot"
+},
+{
+    "name": "Uruk Phalanx",
+    "unitType": "Anti-Mobile",
+    "replaces": "Spearman",
+    "uniqueTo": "Sumer",
+    "movement": 2,
+    "strength": 12,
+    "cost": 50,
+    "requiredTech": "Bronze Working",
+    "obsoleteTech": "Defensive Fortification",
+    "upgradesTo": "Pikeman",
+    "uniques": [
+        "[+50]% Strength <vs [Mobile] units>",
+        "[+15]% Strength <when defending> <when adjacent to a [Uruk Phalanx] unit>",
+        "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
+    ],
+    "attackSound": "metalhit"
+},
+{
+    "name": "Sumerian War Chariot",
+    "unitType": "Shooter",
+    "replaces": "Chariot Archer",
+    "uniqueTo": "Sumer",
+    "movement": 4,
+    "strength": 7,
+    "rangedStrength": 12,
+    "cost": 66,
+    "requiredTech": "The Wheel",
+    "upgradesTo": "Knight",
+    "obsoleteTech": "Chivalry",
+    "uniques": [
+        "Consumes [1] [Horses]",
+        "No defensive terrain bonus",
+        "Can move after attacking",
+        "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"
+    ],
+    "attackSound": "arrow"
+},
+{
+    "name": "Maori Swordsman",
+    "unitType": "Foot Soldier",
+    "replaces": "Swordsman",
+    "uniqueTo": "New Zealand",
+    "movement": 2,
+    "strength": 15,
+    "cost": 65,
+    "requiredTech": "Iron Working",
+    "upgradesTo": "Longswordsman",
+    "obsoleteTech": "Steel",
+    "promotions": ["Haka War Dance"],
+    "uniques": [
+        "Costs [10] [Iron]",
+        "[+10]% Strength <vs [Military] units> <when defending>",
+        "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"
+    ],
+    "attackSound": "metalhit"
+},
+{
+    "name": "Maori Commando",
+    "unitType": "Foot Soldier",
+    "replaces": "Rifleman",
+    "uniqueTo": "New Zealand",
+    "movement": 2,
+    "strength": 34,
+    "cost": 320,
+    "requiredTech": "Rifling",
+    "obsoleteTech": "Replaceable Parts",
+    "upgradesTo": "Great War Infantry",
+    "promotions": ["Maori Heritage"],
+    "uniques": [
+        "[+10]% Strength <vs [Military] units> <when defending>",
+        "[This Unit] heals [5] HP <upon turn end> <in [Friendly] tiles>",
+        "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
+    ],
+    "attackSound": "shot"
+},
+{
+    "name": "Republican Guard",
+    "unitType": "Foot Soldier",
+    "replaces": "Great War Infantry",
+    "uniqueTo": "Iraq",
+    "movement": 2,
+    "strength": 55,
+    "cost": 510,
+    "requiredTech": "Replaceable Parts",
+    "upgradesTo": "Infantry",
+    "obsoleteTech": "Materials Science",
+    "uniques": [
+        "[+10]% Strength <vs [Military] units> <when defending>",
+        "[This Unit] heals [20] HP <upon defeating a [Military] unit>",
+        "[1] Movement <upon defeating a [Military] unit>",
+        "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
     ],
     "attackSound": "shot"
 }

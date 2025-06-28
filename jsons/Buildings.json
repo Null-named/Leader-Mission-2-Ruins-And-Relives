@@ -332,6 +332,72 @@
     ],
     "quote": "'Compromise is the oxygen of democracy.' - Jean-Luc Dehaene"
 },
+{
+    "name": "Civilized Leader-Gilgamesh",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Sumer",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Urukagina]>",
+        "Provides a [Walls] in your first [3] cities for free",
+        "[+25]% Strength for cities <with a garrison> <when attacking>",
+        "New [Military] units start with [5] XP [in all cities]"
+    ],
+    "quote": "'He who has seen everything, I will make known to the lands.' - Epic of Gilgamesh"
+},
+{
+    "name": "Civilized Leader-Urukagina",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Sumer",
+    "uniques": [
+        "Can only be built<in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Gilgamesh]>",
+        "[+1 Faith, +1 Gold] from every [Shrine]",
+        "[+1 Culture, +1 Happiness] from every [Courthouse]"
+    ],
+    "quote": "'The widow and the orphan were no longer at the mercy of the powerful man.' - Reform inscription"
+},
+{
+    "name": "Civilized Leader-Richard Seddon",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "New Zealand",
+    "uniques": [
+        "Can only be built <in [in capital] cities>",
+        "[-1 Production, +1 Happiness] [in all cities]",
+        "[+1 Production] from all [Food] buildings <in [all] cities>"
+    ],
+    "quote": "'I am here to see that the people get a fair deal.' - Richard Seddon"
+},
+{
+    "name": "Civilized Leader-Saddam Hussein",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Iraq",
+    "uniques": [
+        "Can only be built <in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Abdul Karim Qasim]>",
+        "[+1 Production, +1 Science, -1 Gold, -1 Happiness] [in all cities]",
+        "[+10]% Production when constructing [Military] units [in all cities]",
+        "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"
+    ],
+    "quote": "'The mother of all battles has begun.' - Saddam Hussein"
+},
+{
+    "name": "Civilized Leader-Abdul Karim Qasim",
+    "isNationalWonder": true,
+    "cost": 1,
+    "uniqueTo": "Iraq",
+    "uniques": [
+        "Can only be built <in [in capital] cities>",
+        "Only available <in cities without a [Civilized Leader-Saddam Hussein]>",
+        "[+1 Gold] from [Farm] tiles [in all cities]",
+        "[+1 Culture, +2 Gold] from [Strategic resource] tiles [in all cities]",
+    ],
+    "quote": "'Oil belongs to the people!' - Abdul Karim Qasim"
+},
 //奇观
 {
     "name": "Duomo di Milano",
@@ -351,6 +417,24 @@
     ],
     "requiredTech": "Theology",
     "quote": "'The devil is in the details, but so is salvation.' - Milanese proverb"
+},
+{
+    "name": "Ziggurat",
+    "replaces": "Palace",
+    "uniqueTo": "Sumer",
+    "food": 1,
+    "production": 2,
+    "science": 4,
+    "gold": 4,
+    "faith": 2,
+    "culture": 1,
+    "cityStrength": 2,
+    "cost": 1,
+    "isNationalWonder": true,
+    "uniques": [
+        "Indicates the capital city"
+    ],
+    "quote": "'The heavens were separated from the earth, and the earth was given shape. In the earth, the ziggurats of the gods were built.' - Sumerian Creation Myth"
 },
 //建筑
 {
@@ -506,6 +590,28 @@
         "Provides [1] [Number of Buildings] <in this city>"
     ],
     "quote": "'In beer there is freedom, in water there is bacteria.' - Belgian proverb"
+},
+{
+    "name": "Meadow",
+    "replaces": "Stable",
+    "uniqueTo": "New Zealand",
+    "production": 1,
+    "maintenance": 1,
+    "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison"],
+    "requiredTech": "Horseback Riding",
+    "uniques": [
+        "Only available <in cities with a [City Level II]>",
+        "[+15]% Production when constructing [Mounted] units [in this city]",
+        "[+1 Production] from [Cattle] tiles [in this city]",
+        "[+1 Production] from [Horses] tiles [in this city]",
+        "[+1 Production] from [Sheep] tiles [in this city]",
+        "[+1 Production] from [Camel] tiles [in this city]",
+        "[+1 Production] from [Bison] tiles [in this city]",
+        "[+15]% Production when constructing [Mobile] units [in this city]",
+        "[+1 Food] from every [Pasture] <in [Grassland] tiles> <in this city>",
+        "Provides [1] [Number of Buildings] <in this city>"
+    ],
+    "quote": "'Grass is the foundation of our prosperity.' - New Zealand farming maxim"
 }
 //计数器
 ]

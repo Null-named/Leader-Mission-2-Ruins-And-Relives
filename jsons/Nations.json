@@ -528,8 +528,8 @@
 
   "tradeRequest": "We have many fine resources to share in fair trade.",
 
-  "outerColor": [255, 0, 0],    // Red from flag
-  "innerColor": [255, 255, 255], // White from flag
+  "outerColor": [255, 0, 0],
+  "innerColor": [255, 255, 255],
   "favoredReligion": "Christianity",
   "uniqueName": "True North Strong",
   "uniques": [
@@ -594,8 +594,8 @@
 
   "tradeRequest": "We offer goods that reflect the strength of our nation.",
 
-  "outerColor": [0, 150, 110],  // White from flag
-  "innerColor": [255, 255, 255],    // Green from flag
+  "outerColor": [0, 150, 110],
+  "innerColor": [255, 255, 255],
   "uniqueName": "Lion of the Balkans",
   "uniques": [
     "[+10]% Strength <for [Mobile] units> <when attacking>",
@@ -770,6 +770,205 @@
     "Hugo",
     "Elise",
     "Jacques"
+  ]
+},
+{
+  "name": "Sumer",
+  "leaderName": "Leader",
+  "personality": "Religious Militaristic",
+  "adjective": ["Sumerian"],
+  "startBias": ["River"],
+  "preferredVictoryType": "Domination",
+
+  "startIntroPart1": "From the fertile crescent, the cradle of civilization rises!",
+
+  "declaringWar": "By the will of the gods, we march to war!",
+  "attacked": "You challenge the first civilization? Your arrogance will be your downfall!",
+  "defeated": "Though we fall, our innovations will echo through eternity...",
+
+  "introduction": "Hail! I am the ruler of Sumer, where writing and civilization began.",
+
+  "neutralHello": "May the gods bless our meeting.",
+  "hateHello": "What do you want, outsider?",
+
+  "tradeRequest": "We offer goods crafted with the world's oldest knowledge.",
+
+  "outerColor": [100, 60, 70],
+  "innerColor": [60, 120, 150],
+  "uniqueName": "Heroic Myths",
+  "uniques": [
+    "Gain a free [Pantheon] belief <upon founding a Pantheon>",
+    "Gain a free [Pantheon] belief <upon founding a Religion>",
+    "[+5 Faith] <for [Military] units> <upon defeating a [Military] unit>",
+    "[3] XP gained from combat <for [Military] units>",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Uruk",
+    "Ur",
+    "Eridu",
+    "Lagash",
+    "Nippur",
+    "Kish",
+    "Shuruppak",
+    "Bad-tibira",
+    "Sippar",
+    "Girsu",
+    "Umma",
+    "Adab",
+    "Isin",
+    "Larsa",
+    "Zabala",
+    "Marad",
+    "Akshak",
+    "Kuara",
+    "Kisurra",
+    "Der"
+  ],
+  "spyNames": [
+    "Enki",
+    "Inanna",
+    "Gilgamesh",
+    "Enlil",
+    "Nanna",
+    "Utu",
+    "Ninhursag",
+    "Dumuzid",
+    "Ereshkigal",
+    "Ninsun"
+  ]
+},
+{
+  "name": "New Zealand",
+  "leaderName": "Leader",
+  "personality": "Peaceful",
+  "adjective": ["Kiwi"],
+  "startBias": ["Coast"],
+  "preferredVictoryType": "Cultural",
+
+  "startIntroPart1": "From the lands of the long white cloud, we welcome all!",
+
+  "declaringWar": "We take this action with great reluctance, but firm resolve.",
+  "attacked": "You threaten our peaceful islands? This will not stand!",
+  "defeated": "Though our lands may be taken, the spirit of Aotearoa endures...",
+
+  "introduction": "Kia ora! I lead New Zealand, where nature and culture thrive together.",
+
+  "neutralHello": "Kia ora, welcome to our shores!",
+  "hateHello": "What brings you here?",
+
+  "tradeRequest": "We offer goods that reflect our pristine environment and innovative spirit.",
+
+  "outerColor": [30, 69, 122],
+  "innerColor": [200, 66, 86],
+  "uniqueName": "Land of the Long White Cloud",
+  "uniques": [
+    "[+1 Culture] from every [Land] <in tiles adjacent to [Coast] tiles> <in [all] cities>",
+    "[+1 Food] from [Sheep] tiles [in all cities]",
+    "[+1 Food] from [Cattle] tiles [in all cities]",
+    "[+1 Culture] from every [Wonder]",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Auckland",
+    "Wellington",
+    "Christchurch",
+    "Hamilton",
+    "Tauranga",
+    "Dunedin",
+    "Palmerston North",
+    "Nelson",
+    "Rotorua",
+    "New Plymouth",
+    "Whangarei",
+    "Invercargill",
+    "Whanganui",
+    "Gisborne",
+    "Blenheim",
+    "Timaru",
+    "Taupo",
+    "Queenstown",
+    "Paihia",
+    "Milford Sound"
+  ],
+  "spyNames": [
+    "Tane",
+    "Maui",
+    "Hine",
+    "Rua",
+    "Ari",
+    "Hana",
+    "Kiri",
+    "Manaia",
+    "Rawiri",
+    "Whetu"
+  ]
+},
+{
+  "name": "Iraq",
+  "leaderName": "Leader",
+  "personality": "Scientific",
+  "adjective": ["Iraqi"],
+  "startBias": ["River", "Desert"],
+  "preferredVictoryType": "Scientific",
+
+  "startIntroPart1": "From the fertile crescent, where civilization first blossomed!",
+
+  "declaringWar": "We defend the ancient lands where writing and law were born!",
+  "attacked": "You strike at the cradle of civilization! History will remember this folly!",
+  "defeated": "Though we fall, our contributions to human knowledge will endure...",
+
+  "introduction": "Peace be upon you. I lead Iraq, heir to Mesopotamia's great legacy.",
+
+  "neutralHello": "Welcome to the land between two rivers.",
+  "hateHello": "What brings you to our ancient lands?",
+
+  "tradeRequest": "We offer goods that carry the weight of six millennia of history.",
+
+  "outerColor": [206, 17, 38],
+  "innerColor": [0, 122, 61],
+  "uniqueName": "Cradle of Civilization",
+  "uniques": [
+    "[+1 Science] from [River] tiles [in all cities]",
+    "[+1 Culture] from [Plantation] tiles [in all cities]",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Baghdad",
+    "Mosul",
+    "Basra",
+    "Erbil",
+    "Babylon",
+    "Ur",
+    "Nineveh",
+    "Kirkuk",
+    "Najaf",
+    "Karbala",
+    "Nasiriyah",
+    "Samarra",
+    "Fallujah",
+    "Tikrit",
+    "Uruk",
+    "Nippur",
+    "Hatra",
+    "Kufa",
+    "Amara",
+    "Sulaymaniyah"
+  ],
+  "spyNames": [
+    "Ahmed",
+    "Ali",
+    "Hassan",
+    "Omar",
+    "Khalid",
+    "Layla",
+    "Zahra",
+    "Fatima",
+    "Noura",
+    "Rana"
   ]
 }
 ]

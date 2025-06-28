@@ -13,10 +13,9 @@
     ]
 },
 {
-    "name": "Builder",
-    "uniques": [
-          "Can construct [Farm] improvements on tiles",
-          "Can construct [All Road] improvements on tiles"
-    ]
+     "name": "Maori Heritage",
+     "uniques": [
+       
+     ]
 }
 ]

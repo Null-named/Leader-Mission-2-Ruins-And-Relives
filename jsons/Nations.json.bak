@@ -281,9 +281,8 @@
 	"favoredReligion": "Christianity",
 	"uniqueName": "斯拉夫民族的荣耀",
 	"uniques": [
-		"[+20] HP when healing <for [Foot Soldier] units> <when below [30] HP>",
+		"[+15] HP when healing <for [Foot Soldier] units> <when below [35] HP>",
 		"[+20]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-		"Instantly consumes [2] [Warfare Aversion Level] <for [Military] units> <upon defeating a [Military] unit>",
 		"[+1 Production] [in all cities with a garrison]"
 	],
 	"cities": [
@@ -348,7 +347,7 @@
     "uniques": [
         "Triggers a [Renaissance Choice] event <upon entering a new era> <after turn number [5]>",
         "[-1]% Culture cost of adopting new Policies <for every [2] [Happiness]> <when below [50] [Happiness]>",
-            "[-25]% Culture cost of adopting new Policies <when above [50] [Happiness]>"
+        "[-25]% Culture cost of adopting new Policies <when above [50] [Happiness]>"
     ],
 
     "cities": [
@@ -404,7 +403,7 @@
 	"uniqueName": "Glory of Bohemia",
 	"uniques": [
 		"[+1 Food] from [Farm] tiles [in all cities] <within [1] tiles of a [City center]>"
-		"[+1 Production] from [Mine] tiles [in all cities] <within 1 tiles of a [Farm]> <after discovering [Industrialization]>",
+		"[+1 Production] from [Mine] tiles [in all cities] <within [1] tiles of a [Farm]> <after discovering [Industrialization]>",
 		"[+10]% Strength <for [Mobile] units>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
 		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
@@ -446,7 +445,7 @@
 },
 {
 	"name": "Teutonic Order",
-	"leaderName": "Grand Master",
+	"leaderName": "Leader",
 	"personality": "Militaristic Religious",
 	"adjective": ["Templar"],
 	"startBias": ["Hill"],
@@ -529,8 +528,8 @@
 
   "tradeRequest": "We have many fine resources to share in fair trade.",
 
-  "outerColor": [255, 0, 0],    // Red from flag
-  "innerColor": [255, 255, 255], // White from flag
+  "outerColor": [255, 0, 0],
+  "innerColor": [255, 255, 255],
   "favoredReligion": "Christianity",
   "uniqueName": "True North Strong",
   "uniques": [
@@ -572,6 +571,404 @@
     "Timber",
     "Hudson",
     "Yukon"
+  ]
+},
+{
+  "name": "Bulgaria",
+  "leaderName": "Leader",
+  "personality": "Militaristic",
+  "adjective": ["Bulgarian"],
+  "startBias": ["Hill", "River"],
+  "preferredVictoryType": "Domination",
+
+  "startIntroPart1": "The Lion of the Balkans awakens!",
+
+  "declaringWar": "Our warriors shall sweep across your lands like a storm!",
+  "attacked": "You challenge the Lion of the Balkans? Prepare for your demise!",
+  "defeated": "Though defeated, the spirit of Bulgaria shall endure...",
+
+  "introduction": "Hail! I lead the proud Bulgarian people. Will you be friend or foe?",
+
+  "neutralHello": "Welcome to our lands.",
+  "hateHello": "State your business quickly.",
+
+  "tradeRequest": "We offer goods that reflect the strength of our nation.",
+
+  "outerColor": [0, 150, 110],
+  "innerColor": [255, 255, 255],
+  "uniqueName": "Lion of the Balkans",
+  "uniques": [
+    "[+10]% Strength <for [Mobile] units> <when attacking>",
+    "[+1 Faith, +1 Gold] from [River] tiles [in capital]",
+    "[+10]% [Science] [in capital] <after discovering [Theology]>",
+    "[+1 Culture] from all [Faith] buildings <after discovering [Theology]>",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Sofia",
+    "Plovdiv",
+    "Varna",
+    "Burgas",
+    "Ruse",
+    "Stara Zagora",
+    "Pleven",
+    "Sliven",
+    "Dobrich",
+    "Shumen",
+    "Pernik",
+    "Haskovo",
+    "Yambol",
+    "Pazardzhik",
+    "Blagoevgrad",
+    "Veliko Tarnovo",
+    "Vidin",
+    "Montana",
+    "Vratsa",
+    "Gabrovo"
+  ],
+  "spyNames": [
+    "Boris",
+    "Ivan",
+    "Krum",
+    "Asparuh",
+    "Simeon",
+    "Rayna",
+    "Ekaterina",
+    "Vasilka",
+    "Zdravka",
+    "Boyana"
+  ]
+},
+{
+  "name": "Georgia",
+  "leaderName": "Leader",
+  "personality": "Cultural",
+  "adjective": ["Georgian"],
+  "startBias": ["Hill"],
+  "preferredVictoryType": "Cultural",
+
+  "startIntroPart1": "The cradle of Caucasus civilization awakens!",
+
+  "declaringWar": "Our warriors will defend our sacred lands with fierce determination!",
+  "attacked": "You dare challenge the heirs of Colchis? Prepare to face our wrath!",
+  "defeated": "Though defeated, our culture and spirit will endure like the Caucasus mountains...",
+
+  "introduction": "Greetings! I lead the proud nation of Georgia, where ancient traditions meet modern wisdom.",
+
+  "neutralHello": "Gamarjoba! Welcome to our lands.",
+  "hateHello": "What do you want?",
+
+  "tradeRequest": "We offer goods that reflect our rich cultural heritage.",
+
+  "outerColor": [255, 255, 255],
+  "innerColor": [255, 0, 0],
+  "uniqueName": "Land of Distinguished Minds",
+  "uniques": [
+    "Free Great Person <upon turn end> <every [25] turns> <after turn number [31]>",
+    "[+25]% Great Person generation [in all cities]",
+    "[+25]% Great Person generation [in capital]",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Tbilisi",
+    "Kutaisi",
+    "Batumi",
+    "Rustavi",
+    "Gori",
+    "Zugdidi",
+    "Poti",
+    "Sukhumi",
+    "Telavi",
+    "Akhaltsikhe",
+    "Ozurgeti",
+    "Mtskheta",
+    "Ambrolauri",
+    "Oni",
+    "Signagi",
+    "Stepantsminda",
+    "Borjomi",
+    "Akhaldaba",
+    "Chiatura",
+    "Tskhinvali"
+  ],
+  "spyNames": [
+    "Vakhtang",
+    "Tamar",
+    "Shota",
+    "Ilia",
+    "David",
+    "Nino",
+    "Ketevan",
+    "Natela",
+    "Sulkhan",
+    "Rusudan"
+  ]
+},
+{
+  "name": "Belgium",
+  "leaderName": "Leader",
+  "personality": "Diplomatic",
+  "adjective": ["Belgian"],
+  "startBias": ["Plains"],
+  "preferredVictoryType": "Cultural",
+
+  "startIntroPart1": "At the heart of Europe, we build bridges between cultures!",
+
+  "declaringWar": "We take this regrettable action to protect the European ideal.",
+  "attacked": "You strike at the heart of Europe! This aggression will not stand!",
+  "defeated": "Though we fall, the European project will continue...",
+
+  "introduction": "Greetings! I represent Belgium, the crossroads of European civilization.",
+
+  "neutralHello": "Bonjour/Hallo! Welcome to our diverse nation.",
+  "hateHello": "What is your purpose here?",
+
+  "tradeRequest": "We offer goods that embody European craftsmanship and quality.",
+
+  "outerColor": [0, 0, 0],
+  "innerColor": [255, 205, 0],
+  "uniqueName": "Heart of Europe",
+  "uniques": [
+    "[+50]% Great Person generation [in all cities] <during a Golden Age>",
+    "Empire enters a [3]-turn Golden Age <upon expending a [Great Person] unit>",
+    "Instantly gain [30] [Golden Age points] <upon turn end> <for every [Owned [Great Improvement] Tiles]>",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Brussels",
+    "Antwerp",
+    "Ghent",
+    "Charleroi",
+    "Liège",
+    "Bruges",
+    "Namur",
+    "Leuven",
+    "Mons",
+    "Kortrijk",
+    "Ostend",
+    "Tournai",
+    "Arlon",
+    "Mechelen",
+    "Ypres",
+    "Dinant",
+    "Spa",
+    "Waterloo",
+    "Bastogne",
+    "Knokke"
+  ],
+  "spyNames": [
+    "Jean",
+    "Luc",
+    "Marie",
+    "Sophie",
+    "Pierre",
+    "Thomas",
+    "Anne",
+    "Hugo",
+    "Elise",
+    "Jacques"
+  ]
+},
+{
+  "name": "Sumer",
+  "leaderName": "Leader",
+  "personality": "Religious Militaristic",
+  "adjective": ["Sumerian"],
+  "startBias": ["River"],
+  "preferredVictoryType": "Domination",
+
+  "startIntroPart1": "From the fertile crescent, the cradle of civilization rises!",
+
+  "declaringWar": "By the will of the gods, we march to war!",
+  "attacked": "You challenge the first civilization? Your arrogance will be your downfall!",
+  "defeated": "Though we fall, our innovations will echo through eternity...",
+
+  "introduction": "Hail! I am the ruler of Sumer, where writing and civilization began.",
+
+  "neutralHello": "May the gods bless our meeting.",
+  "hateHello": "What do you want, outsider?",
+
+  "tradeRequest": "We offer goods crafted with the world's oldest knowledge.",
+
+  "outerColor": [100, 60, 70],
+  "innerColor": [60, 120, 150],
+  "uniqueName": "Heroic Myths",
+  "uniques": [
+    "Gain a free [Pantheon] belief <upon founding a Pantheon>",
+    "Gain a free [Pantheon] belief <upon founding a Religion>",
+    "[+5 Faith] <for [Military] units> <upon defeating a [Military] unit>",
+    "[3] XP gained from combat <for [Military] units>",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Uruk",
+    "Ur",
+    "Eridu",
+    "Lagash",
+    "Nippur",
+    "Kish",
+    "Shuruppak",
+    "Bad-tibira",
+    "Sippar",
+    "Girsu",
+    "Umma",
+    "Adab",
+    "Isin",
+    "Larsa",
+    "Zabala",
+    "Marad",
+    "Akshak",
+    "Kuara",
+    "Kisurra",
+    "Der"
+  ],
+  "spyNames": [
+    "Enki",
+    "Inanna",
+    "Gilgamesh",
+    "Enlil",
+    "Nanna",
+    "Utu",
+    "Ninhursag",
+    "Dumuzid",
+    "Ereshkigal",
+    "Ninsun"
+  ]
+},
+{
+  "name": "New Zealand",
+  "leaderName": "Leader",
+  "personality": "Peaceful",
+  "adjective": ["Kiwi"],
+  "startBias": ["Coast"],
+  "preferredVictoryType": "Cultural",
+
+  "startIntroPart1": "From the lands of the long white cloud, we welcome all!",
+
+  "declaringWar": "We take this action with great reluctance, but firm resolve.",
+  "attacked": "You threaten our peaceful islands? This will not stand!",
+  "defeated": "Though our lands may be taken, the spirit of Aotearoa endures...",
+
+  "introduction": "Kia ora! I lead New Zealand, where nature and culture thrive together.",
+
+  "neutralHello": "Kia ora, welcome to our shores!",
+  "hateHello": "What brings you here?",
+
+  "tradeRequest": "We offer goods that reflect our pristine environment and innovative spirit.",
+
+  "outerColor": [30, 69, 122],
+  "innerColor": [200, 66, 86],
+  "uniqueName": "Land of the Long White Cloud",
+  "uniques": [
+    "[+1 Culture] from every [Land] <in tiles adjacent to [Coast] tiles> <in [all] cities>",
+    "[+1 Food] from [Sheep] tiles [in all cities]",
+    "[+1 Food] from [Cattle] tiles [in all cities]",
+    "[+1 Culture] from every [Wonder]",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Auckland",
+    "Wellington",
+    "Christchurch",
+    "Hamilton",
+    "Tauranga",
+    "Dunedin",
+    "Palmerston North",
+    "Nelson",
+    "Rotorua",
+    "New Plymouth",
+    "Whangarei",
+    "Invercargill",
+    "Whanganui",
+    "Gisborne",
+    "Blenheim",
+    "Timaru",
+    "Taupo",
+    "Queenstown",
+    "Paihia",
+    "Milford Sound"
+  ],
+  "spyNames": [
+    "Tane",
+    "Maui",
+    "Hine",
+    "Rua",
+    "Ari",
+    "Hana",
+    "Kiri",
+    "Manaia",
+    "Rawiri",
+    "Whetu"
+  ]
+},
+{
+  "name": "Iraq",
+  "leaderName": "Leader",
+  "personality": "Scientific",
+  "adjective": ["Iraqi"],
+  "startBias": ["River", "Desert"],
+  "preferredVictoryType": "Scientific",
+
+  "startIntroPart1": "From the fertile crescent, where civilization first blossomed!",
+
+  "declaringWar": "We defend the ancient lands where writing and law were born!",
+  "attacked": "You strike at the cradle of civilization! History will remember this folly!",
+  "defeated": "Though we fall, our contributions to human knowledge will endure...",
+
+  "introduction": "Peace be upon you. I lead Iraq, heir to Mesopotamia's great legacy.",
+
+  "neutralHello": "Welcome to the land between two rivers.",
+  "hateHello": "What brings you to our ancient lands?",
+
+  "tradeRequest": "We offer goods that carry the weight of six millennia of history.",
+
+  "outerColor": [206, 17, 38],
+  "innerColor": [0, 122, 61],
+  "uniqueName": "Cradle of Civilization",
+  "uniques": [
+    "[+1 Science] from [River] tiles [in all cities]",
+    "[+1 Culture] from [Plantation] improvements [in all cities]",
+    "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
+    "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
+  ],
+  "cities": [
+    "Baghdad",
+    "Mosul",
+    "Basra",
+    "Erbil",
+    "Babylon",
+    "Ur",
+    "Nineveh",
+    "Kirkuk",
+    "Najaf",
+    "Karbala",
+    "Nasiriyah",
+    "Samarra",
+    "Fallujah",
+    "Tikrit",
+    "Uruk",
+    "Nippur",
+    "Hatra",
+    "Kufa",
+    "Amara",
+    "Sulaymaniyah"
+  ],
+  "spyNames": [
+    "Ahmed",
+    "Ali",
+    "Hassan",
+    "Omar",
+    "Khalid",
+    "Layla",
+    "Zahra",
+    "Fatima",
+    "Noura",
+    "Rana"
   ]
 }
 ]
