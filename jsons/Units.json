@@ -83,7 +83,7 @@
 	"replaces": "Rocket Artillery",
 	"movement": 2,
 	"strength": 50,
-	"rangedStrength": 47,
+	"rangedStrength": 50,
 	"range": 4,
 	"cost": 880,
 	"requiredTech": "Rocketry",
@@ -196,12 +196,12 @@
 	"attackSound": "tankshot"
 },
 {
-    "name": "Red Shirys",
+    "name": "Red Shirts",
     "unitType": "Foot Soldier",
-    "uniqueTo": "Italy",
-    "requiredTech": "Gunpowder",
+    "uniqueTo": "Italy Kingdom",
+    "requiredTech": "Rifling",
     "replaces": "Rifleman",
-    "obsoleteTech": "Rifling",
+    "obsoleteTech": "Replaceable Parts",
     "movement": 2,
     "strength": 35,
     "cost": 320,
@@ -219,20 +219,20 @@
 	"uniqueTo": "Czechoslovakia",
 	"replaces": "Pikeman",
 	"movement": 2,
-	"strength": 16,
-	"rangedStrength": 15,
+	"strength": 18,
+	"rangedStrength": 17,
 	"range": 1,
 	"cost": 150,
 	"requiredTech": "Defensive Fortification",
 	"upgradesTo": "Lancer",
 	"obsoleteTech": "Metallurgy",
 	"uniques": [
-		"[+50]% Strength <vs [Mobile] units>",
+		"[+40]% Strength <vs [Mobile] units>",
 		"[+30]% Strength <when defending>",
 		"Must set up to ranged attack",
 		"[+10]% Strength bonus for [Military] units within [1] tiles",
 		"Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
-		]
+		],
 	"attackSound": "cannon"
 },
 {
@@ -422,7 +422,7 @@
         "[+20]% Strength <when fighting in [Snow] tiles> <when attacking>",
         "[+1] Sight",
         "Can build [Road] improvements on tiles"
-    ]
+    ],
     "attackSound": "shot"
 },
 {
@@ -431,8 +431,8 @@
     "replaces": "Knight",
     "uniqueTo": "Bulgaria",
     "movement": 3,
-    "strength": 24,
-    "cost": 183,
+    "strength": 25,
+    "cost": 162,
     "requiredTech": "Chivalry",
     "obsoleteTech": "Military Science",
     "upgradesTo": "Cavalry",
@@ -456,13 +456,13 @@
     "replaces": "Pikeman",
     "uniqueTo": "Georgia",
     "movement": 2,
-    "strength": 15,
+    "strength": 19,
     "cost": 115,
     "requiredTech": "Defensive Fortification",
     "upgradesTo": "Lancer",
     "obsoleteTech": "Metallurgy",
     "uniques": [
-        "[+50]% Strength <vs [Mobile] units>",
+        "[+40]% Strength <vs [Mobile] units>",
         "[+15]% Strength <when defending>",
         "Double movement in [Hill]",
         "Earn [100]% of killed [Military] unit's [Strength] as [Faith] <when fighting in [Hill] tiles>",
@@ -497,13 +497,13 @@
     "replaces": "Spearman",
     "uniqueTo": "Sumer",
     "movement": 2,
-    "strength": 12,
+    "strength": 13,
     "cost": 50,
     "requiredTech": "Bronze Working",
     "obsoleteTech": "Defensive Fortification",
     "upgradesTo": "Pikeman",
     "uniques": [
-        "[+50]% Strength <vs [Mobile] units>",
+        "[+40]% Strength <vs [Mobile] units>",
         "[+15]% Strength <when defending> <when adjacent to a [Uruk Phalanx] unit>",
         "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users>"
     ],

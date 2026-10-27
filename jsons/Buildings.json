@@ -65,7 +65,7 @@
       "uniques": [
           "Can only be built<in [in capital] cities>",
           "Only available <in cities without a [Civilized Leader-Barian]>",
-          "[+7]% Strength <for [Foot Soldier] units>"
+          "[+7]% Strength <for [Foot Soldier] units>",
           "Earn [20]% of the damage done to [Military] units as [Gold]",
           "[+1 Gold] from every [Farm] <in tiles adjacent to [Fresh Water] tiles>"
       ],
@@ -97,7 +97,7 @@
         "[+1 Gold] from [Coast] tiles [in all cities]",
         "[+1 Production] from [Water resource] tiles [in all cities] <before discovering [Sailing]>",
         "[+1 Production] from [Coast] tiles [in all cities] <after discovering [Astronomy]>",
-        "[+10]% maintenance cost for buildings [in all coastal cities]"
+        "[10]% maintenance cost for [all] buildings [in all coastal cities]"
     ]
 },
 {
@@ -150,7 +150,7 @@
     "name": "Civilized Leader-Camillo Benso Conte Cavour",
     "isNationalWonder": true,
     "cost": 1,
-    "uniqueTo": "Italy",
+    "uniqueTo": "Italy Kingdom",
     "uniques": [
         "Can only be built<in [in capital] cities>",
         "Only available <in cities without a [Civilized Leader-Francesco Petrarca]>",
@@ -163,7 +163,7 @@
     "name": "Civilized Leader-Francesco Petrarca",
     "isNationalWonder": true,
     "cost": 1,
-    "uniqueTo": "Italy",
+    "uniqueTo": "Italy Kingdom",
     "uniques": [
         "Can only be built<in [in capital] cities>",
         "Only available <in cities without a [Civilized Leader-Enrico Dandolo]>",
@@ -177,7 +177,7 @@
     "name": "Civilized Leader-Enrico Dandolo",
     "isNationalWonder": true,
     "cost": 1,
-    "uniqueTo": "Italy",
+    "uniqueTo": "Italy Kingdom",
     "uniques": [
         "Can only be built<in [in capital] cities>",
         "Only available <in cities without a [Civilized Leader-Francesco Petrarca]>",
@@ -546,7 +546,7 @@
     "cost": 110,
     "production": 2,
     "percentStatBonus": {"production": 15},
-    "SpecialistSlots": {"Engineer": 1},
+    "specialistSlots": {"Engineer": 1},
     "culture": 1,
     "faith": 1,
     "maintenance": 2,
@@ -601,7 +601,7 @@
     "requiredTech": "Horseback Riding",
     "uniques": [
         "Only available <in cities with a [City Level II]>",
-        "[+15]% Production when constructing [Mounted] units [in this city]",
+        "[+15]% Production when constructing [Mobile] units [in this city]",
         "[+1 Production] from [Cattle] tiles [in this city]",
         "[+1 Production] from [Horses] tiles [in this city]",
         "[+1 Production] from [Sheep] tiles [in this city]",

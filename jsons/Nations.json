@@ -18,7 +18,7 @@
 	
 	"tradeRequest": "知识的交流将使我们都受益，你愿意分享吗？",
 	
-	"outerColor": [20, 210, 240],  // 浅蓝色
+	"outerColor": [19, 161, 184],  // 浅蓝色
 	"innerColor": [255, 255, 255],  // 金色
 	
 	"favoredReligion": "Taoism",
@@ -72,8 +72,8 @@
 	
 	"tradeRequest": "用你的资源换取朝阳的恩赐吧。",
 	
-	"outerColor": [255, 69, 0],  // 朝阳橙红色
-	"innerColor": [255, 215, 0],  // 金色
+	"outerColor": [219, 61, 2],  // 朝阳橙红色
+	"innerColor": [255, 221, 38],  // 金色
 	
 	"favoredReligion": "Shinto",
 	"uniqueName": "旭日之征",
@@ -120,7 +120,6 @@
 {
 	"name": "Isni",
 	"leaderName": "Leader",
-	"personality": "伊斯尼",
 	"adjective": ["伊斯尼"],
 	"startBias": ["Desert"],
 	"preferredVictoryType": "Cultural",
@@ -139,7 +138,7 @@
 	"tradeRequest": "以物易物，以心换心，这是伊斯尼的贸易之道。",
 	
 	"outerColor": [192, 192, 192],
-	"innerColor": [255, 215, 0],
+	"innerColor": [255, 225, 0],
 	
 	"favoredReligion": "Islam",
 	"uniqueName": "沙海圣约",
@@ -186,7 +185,6 @@
 {
 	"name": "Arcardia Trade Federation",
 	"leaderName": "Leader",
-	"personality": "商贸联邦",
 	"adjective": ["阿尔卡迪亚"],
 	"startBias": ["Coast", "Avoid Tundra"],
 	"preferredVictoryType": "Diplomatic",
@@ -204,8 +202,8 @@
 	
 	"tradeRequest": "这笔交易将记入双方的永久账目 - 你意下如何？",
 	
-	"outerColor": [0, 91, 187],  // 深海蓝
-	"innerColor": [218, 165, 32],  // 金币黄
+	"outerColor": [0, 87, 178],  // 深海蓝
+	"innerColor": [219, 169, 43],  // 金币黄
 	
 	"favoredReligion": "Christianity",
 	"uniqueName": "万商公约",
@@ -257,7 +255,6 @@
 {
 	"name": "Yugoslavia",
 	"leaderName": "Leader",
-	"personality": "不结盟",
 	"adjective": ["南斯拉夫"],
 	"startBias": ["Hill", "Avoid Desert"],
 	"preferredVictoryType": "Cultural",
@@ -321,10 +318,9 @@
 	]
 },
 {
-    "name": "Italy",
+    "name": "Italy Kingdom",
     "leaderName": "Leader",
     "adjective": ["意大利"],
-    "personality": "文艺复兴",
     "startBias": ["Coast", "Avoid Tundra"],
     "preferredVictoryType": "Cultural",
 
@@ -339,7 +335,7 @@
     "hateHello": "庸俗之徒！",
 
     "outerColor": [0, 140, 69],  // 意大利绿
-    "innerColor": [205, 33, 42],  // 意大利红
+    "innerColor": [155, 33, 42],  // 意大利红
 
     "favoredReligion": "Christianity",
     "uniqueName": "文艺复兴浪潮",
@@ -379,7 +375,6 @@
 {
 	"name": "Czechoslovakia",
 	"leaderName": "Leader",
-	"personality": "Czechoslovakia",
 	"adjective": ["Czechoslovak"],
 	"startBias": ["Plains"],
 	"preferredVictoryType": "Domination",
@@ -402,7 +397,7 @@
 	"favoredReligion": "Christianity",
 	"uniqueName": "Glory of Bohemia",
 	"uniques": [
-		"[+1 Food] from [Farm] tiles [in all cities] <within [1] tiles of a [City center]>"
+		"[+1 Food] from [Farm] tiles [in all cities] <within [1] tiles of a [City center]>",
 		"[+1 Production] from [Mine] tiles [in all cities] <within [1] tiles of a [Farm]> <after discovering [Industrialization]>",
 		"[+10]% Strength <for [Mobile] units>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
@@ -446,7 +441,6 @@
 {
 	"name": "Teutonic Order",
 	"leaderName": "Leader",
-	"personality": "Militaristic Religious",
 	"adjective": ["Templar"],
 	"startBias": ["Hill"],
 	"preferredVictoryType": "Domination",
@@ -472,7 +466,7 @@
 		"New [Military] units start with [10] XP [in this city] <in cities with a [Faith]>",
 		"May buy [Teutonic Knight] units with [Faith] for [3] times their normal Production cost <after discovering [Chivalry]>",
 		"Earn [20]% of the damage done to [Military] units as [Faith]",
-		"[+1 Faith] from all [Military] buildings",
+		"[+1 Faith] from all [Barracks] buildings",
 		"[+10]% Strength <for [Military] units> <when adjacent to a [Religious Unit] unit> <after enhancing a religion>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
 		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
@@ -510,7 +504,6 @@
 {
   "name": "Canada",
   "leaderName": "Leader",
-  "personality": "Peaceful",
   "adjective": ["Canadian"],
   "startBias": ["Tundra", "Forest"],
   "preferredVictoryType": "Cultural",
@@ -576,7 +569,6 @@
 {
   "name": "Bulgaria",
   "leaderName": "Leader",
-  "personality": "Militaristic",
   "adjective": ["Bulgarian"],
   "startBias": ["Hill", "River"],
   "preferredVictoryType": "Domination",
@@ -643,7 +635,6 @@
 {
   "name": "Georgia",
   "leaderName": "Leader",
-  "personality": "Cultural",
   "adjective": ["Georgian"],
   "startBias": ["Hill"],
   "preferredVictoryType": "Cultural",
@@ -709,7 +700,6 @@
 {
   "name": "Belgium",
   "leaderName": "Leader",
-  "personality": "Diplomatic",
   "adjective": ["Belgian"],
   "startBias": ["Plains"],
   "preferredVictoryType": "Cultural",
@@ -775,7 +765,6 @@
 {
   "name": "Sumer",
   "leaderName": "Leader",
-  "personality": "Religious Militaristic",
   "adjective": ["Sumerian"],
   "startBias": ["River"],
   "preferredVictoryType": "Domination",
@@ -793,13 +782,13 @@
 
   "tradeRequest": "We offer goods crafted with the world's oldest knowledge.",
 
-  "outerColor": [100, 60, 70],
-  "innerColor": [60, 120, 150],
+  "outerColor": [83, 51, 59],
+  "innerColor": [99, 147, 171],
   "uniqueName": "Heroic Myths",
   "uniques": [
     "Gain a free [Pantheon] belief <upon founding a Pantheon>",
     "Gain a free [Pantheon] belief <upon founding a Religion>",
-    "[+5 Faith] <for [Military] units> <upon defeating a [Military] unit>",
+    "Gain [5] [Faith] <for [Military] units> <upon defeating a [Military] unit>",
     "[3] XP gained from combat <for [Military] units>",
     "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion> <hidden from users>",
     "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion> <hidden from users>"
@@ -842,7 +831,6 @@
 {
   "name": "New Zealand",
   "leaderName": "Leader",
-  "personality": "Peaceful",
   "adjective": ["Kiwi"],
   "startBias": ["Coast"],
   "preferredVictoryType": "Cultural",
@@ -860,11 +848,11 @@
 
   "tradeRequest": "We offer goods that reflect our pristine environment and innovative spirit.",
 
-  "outerColor": [30, 69, 122],
-  "innerColor": [200, 66, 86],
+  "outerColor": [27, 58, 101],
+  "innerColor": [211, 103, 119],
   "uniqueName": "Land of the Long White Cloud",
   "uniques": [
-    "[+1 Culture] from every [Land] <in tiles adjacent to [Coast] tiles> <in [all] cities>",
+    "[+1 Culture] from every [Land] <in tiles adjacent to [Coastal] tiles>",
     "[+1 Food] from [Sheep] tiles [in all cities]",
     "[+1 Food] from [Cattle] tiles [in all cities]",
     "[+1 Culture] from every [Wonder]",
@@ -909,7 +897,6 @@
 {
   "name": "Iraq",
   "leaderName": "Leader",
-  "personality": "Scientific",
   "adjective": ["Iraqi"],
   "startBias": ["River", "Desert"],
   "preferredVictoryType": "Scientific",
