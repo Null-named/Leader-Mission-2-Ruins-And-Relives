@@ -347,7 +347,7 @@ NationIcons/Isni
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Italy
+NationIcons/Italy Kingdom
   rotate: false
   xy: 1100, 282
   size: 100, 100
@@ -480,7 +480,7 @@ UnitIcons/Maori Swordsman
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Red Shirys
+UnitIcons/Red Shirts
   rotate: false
   xy: 1640, 282
   size: 100, 100
