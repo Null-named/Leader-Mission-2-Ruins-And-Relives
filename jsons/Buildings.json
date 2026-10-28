@@ -402,7 +402,7 @@
 {
     "name": "Duomo di Milano",
     "replaces": "Grand Temple",
-    "uniqueTo": "Italy",
+    "uniqueTo": "Italy Kingdom",
     "cost": 120,
     "faith": 0,
     "culture": 0,
