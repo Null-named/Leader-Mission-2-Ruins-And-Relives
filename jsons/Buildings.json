@@ -411,8 +411,8 @@
         "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
         "Cost increases by [30] per owned city",
         "Gain a free [Pantheon] belief",
-        "[+30]% [Faith] [in this city]",
-        "[+20]% [Culture] [in this city]",
+        "[+50]% [Faith] [in this city]",
+        "[+25]% [Culture] [in this city]",
         "[+100]% Natural religion spread [in this city]"
     ],
     "requiredTech": "Theology",
